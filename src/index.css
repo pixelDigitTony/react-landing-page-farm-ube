@@ -1,0 +1,30 @@
+@import '@fontsource/cormorant-garamond/latin-500.css';
+@import '@fontsource/cormorant-garamond/latin-500-italic.css';
+@import '@fontsource/cormorant-garamond/latin-600.css';
+@import '@fontsource/dm-sans/latin-400.css';
+@import '@fontsource/dm-sans/latin-500.css';
+@import '@fontsource/dm-sans/latin-600.css';
+
+:root { font-family: var(--font-body); color: var(--ube-ink); background: var(--ube-cream); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --sc-canvas: var(--ube-cream); --sc-surface: var(--ube-paper); --sc-ink: var(--ube-ink); --sc-ink-soft: var(--ube-muted); --sc-accent: var(--ube-purple); --sc-accent-ink: var(--ube-white); --sc-font-display: var(--font-display); --sc-font-text: var(--font-body); }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+html { scroll-behavior: auto; }
+[hidden] { display: none !important; }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:disabled { cursor: default; opacity: .65; }
+button, a { touch-action: manipulation; }
+a { color: inherit; text-decoration: none; }
+button { color: inherit; }
+button:not(.button) { border: 0; background: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--ube-purple); outline-offset: 5px; }
+h1, h2, h3, p, figure { margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; white-space: pre-line; letter-spacing: -.035em; }
+h1 { font-size: clamp(58px, 5.8vw, 94px); line-height: .96; }
+h2 { font-size: clamp(44px, 4.65vw, 72px); line-height: 1; }
+h3 { font-size: 44px; line-height: 1.1; }
+p { font-size: 16px; line-height: 1.75; }
+small { font-size: 12px; line-height: 1.65; display: block; color: var(--ube-muted); }
+::selection { background: var(--ube-lavender); color: var(--ube-purple); }
+img { max-width: 100%; }

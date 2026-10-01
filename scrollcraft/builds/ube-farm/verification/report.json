@@ -1,0 +1,1179 @@
+{
+  "baseURL": "http://127.0.0.1:4174",
+  "node": "v26.9.0",
+  "checks": [
+    "desktop: 12 scroll states, no horizontal overflow",
+    "desktop: six additional positions per stage, rendered motion sensor captured",
+    "desktop: all four story leaf petioles connected within 2px, leaves fully open, copy fully opaque and inside viewport",
+    "mobile: 12 scroll states, no horizontal overflow",
+    "mobile: six additional positions per stage, rendered motion sensor captured",
+    "mobile: all four story leaf petioles connected within 2px, leaves fully open, copy fully opaque and inside viewport",
+    "compact: 12 scroll states, no horizontal overflow",
+    "compact: six additional positions per stage, rendered motion sensor captured",
+    "compact: all four story leaf petioles connected within 2px, leaves fully open, copy fully opaque and inside viewport",
+    "Lookup: empty, unknown, leading-zero valid ID; partner route; missing route; QR download; browser Back",
+    "Mobile waypoint menu, keyboard viewport, reading/animated switch, profile",
+    "Reduced motion uses ordinary document flow with every story and partner",
+    "Camera permission denial, no-camera recovery, Escape closes modal",
+    "Camera permission request completing after modal close releases its tracks and restores focus",
+    "Real ZXing decoding from a simulated camera stream opens matching farm and stops tracks",
+    "Final toolbar contrast/tap-size fix: 16 production screenshots across desktop, phone, compact and tablet; no overflow; visible 44px reading control; logical lookup tab order; local-only resource requests",
+    "Final root shadow artifact removed; six production opening/planting/growth screenshots refreshed on desktop and phone"
+  ],
+  "errors": [],
+  "states": [
+    {
+      "device": "desktop",
+      "t": 0,
+      "scroll": 0,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(0.961262, -0.275637, 0.275637, 0.961262, -288, -342)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;",
+      "active": "journey current-intro",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 0.45,
+      "scroll": 405,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(1, -9.22559e-06, 9.22559e-06, 1, -288, -192.011)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;",
+      "active": "journey current-intro",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 1,
+      "scroll": 900,
+      "rendered": "matrix(0.929864, 0, 0, 0.929864, 78.7768, -4339.95)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.971339px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.07543, 0, 0, 1, -84.7187, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 1.8,
+      "scroll": 1620,
+      "rendered": "matrix(0.264925, 0, 0, 0.264925, 825.636, -689.438)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.60856px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(3.77465, 0, 0, 1, -3116.49, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 2.6,
+      "scroll": 2340,
+      "rendered": "matrix(0.641785, 0, 0, 0.641785, 402.347, -355.14)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.151882px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.55815, 0, 0, 1, -626.919, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 3.65,
+      "scroll": 3285,
+      "rendered": "matrix(1, 0, 0, 1, 0, 180)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-lookup",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 4.9,
+      "scroll": 4410,
+      "rendered": "matrix(1, 0, 0, 1, 0, -855)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-story",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 6.1,
+      "scroll": 5490,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1890)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-growing",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 7.3,
+      "scroll": 6570,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2925)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-harvest",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 8.6,
+      "scroll": 7740,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3960)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-partners",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 10.6,
+      "scroll": 9540,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.6, 0, 0, 1.6, -288, -192)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 153)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-leadership",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "t": 11,
+      "scroll": 9900,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.6, 0, 0, 1.6, -288, -192)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 153)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-leadership",
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "stage": "intro",
+      "travel": 0.024,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(0.961916, -0.273346, 0.273346, 0.961916, -288, -531.082)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "desktop",
+      "stage": "intro",
+      "travel": 0.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(0.973605, -0.22824, 0.22824, 0.973605, -288, -474.011)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "desktop",
+      "stage": "intro",
+      "travel": 0.24,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(0.992112, -0.125354, 0.125354, 0.992112, -288, -345.925)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "desktop",
+      "stage": "intro",
+      "travel": 0.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(0.999578, -0.0290382, 0.0290382, 0.999578, -288, -227.568)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "desktop",
+      "stage": "intro",
+      "travel": 0.48,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "desktop",
+      "stage": "intro",
+      "travel": 0.576,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(22.65% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "desktop",
+      "stage": "growth",
+      "travel": 0.704,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4725)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(13.5169% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "growth",
+      "travel": 1.12,
+      "rendered": "matrix(0.850155, 0, 0, 0.850155, 168.306, -3902.35)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.938467px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.17626, 0, 0, 1, -197.971, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "growth",
+      "travel": 1.6400000000000001,
+      "rendered": "matrix(0.371938, 0, 0, 0.371938, 705.439, -1253.55)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.702054px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(2.68862, 0, 0, 1, -1896.66, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "growth",
+      "travel": 2.16,
+      "rendered": "matrix(0.26711, 0, 0, 0.26711, 823.182, -390.157)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.388805px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(3.74378, 0, 0, 1, -3081.81, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "growth",
+      "travel": 2.68,
+      "rendered": "matrix(0.720677, 0, 0, 0.720677, 313.736, -281.241)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.116578px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.38758, 0, 0, 1, -435.335, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "growth",
+      "travel": 3.096,
+      "rendered": "matrix(0.986661, 0, 0, 0.986661, 14.9829, 150.511)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.00544395px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.01352, 0, 0, 1, -15.1854, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "lookup",
+      "travel": 3.248,
+      "rendered": "matrix(1, 0, 0, 1, 0, 180)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.239732|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "lookup",
+      "travel": 3.4400000000000004,
+      "rendered": "matrix(1, 0, 0, 1, 0, 180)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "lookup",
+      "travel": 3.68,
+      "rendered": "matrix(1, 0, 0, 1, 0, 180)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "lookup",
+      "travel": 3.92,
+      "rendered": "matrix(1, 0, 0, 1, 0, 180)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "lookup",
+      "travel": 4.16,
+      "rendered": "matrix(1, 0, 0, 1, 0, -198.166)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.287589|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "lookup",
+      "travel": 4.352,
+      "rendered": "matrix(1, 0, 0, 1, 0, -815.745)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "story",
+      "travel": 4.448,
+      "rendered": "matrix(1, 0, 0, 1, 0, -855)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.239732|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "story",
+      "travel": 4.640000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -855)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "story",
+      "travel": 4.880000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -855)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "story",
+      "travel": 5.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -855)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "story",
+      "travel": 5.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1236.94)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.28175|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "story",
+      "travel": 5.5520000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1850.75)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "growing",
+      "travel": 5.648000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1890)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.239732|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "growing",
+      "travel": 5.840000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1890)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "growing",
+      "travel": 6.08,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1890)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "growing",
+      "travel": 6.32,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1890)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "growing",
+      "travel": 6.5600000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2271.94)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.28175|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "growing",
+      "travel": 6.752000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2885.75)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "harvest",
+      "travel": 6.848000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2925)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.239732|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "harvest",
+      "travel": 7.040000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2925)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "harvest",
+      "travel": 7.280000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2925)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "harvest",
+      "travel": 7.5200000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2925)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "harvest",
+      "travel": 7.760000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3306.94)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.28175|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "harvest",
+      "travel": 7.952000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3920.75)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "desktop",
+      "stage": "partners",
+      "travel": 8.056,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3960)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0.309912|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "partners",
+      "travel": 8.28,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3960)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "partners",
+      "travel": 8.56,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3960)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "partners",
+      "travel": 8.84,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3960)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "partners",
+      "travel": 9.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4325.33)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0.28175|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "partners",
+      "travel": 9.344,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4912.69)|1|none|0px;matrix(1, 0, 0, 1, -288, -192)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "leadership",
+      "travel": 9.464,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.00791, 0, 0, 1.00791, -288, -192)|0.986819|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.171072, 0, 0, 0.171072, 0, 0)|0.0131809|none|0px;matrix(1, 0, 0, 1, 0, 2.01668)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "leadership",
+      "travel": 9.72,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.15837, 0, 0, 1.15837, -288, -192)|0.73605|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.381718, 0, 0, 0.381718, 0, 0)|0.26395|none|0px;matrix(1, 0, 0, 1, 0, 40.3843)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "leadership",
+      "travel": 10.040000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.45003, 0, 0, 1.45003, -288, -192)|0.249952|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.79004, 0, 0, 0.79004, 0, 0)|0.750048|none|0px;matrix(1, 0, 0, 1, 0, 114.757)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "leadership",
+      "travel": 10.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.6, 0, 0, 1.6, -288, -192)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 153)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "leadership",
+      "travel": 10.68,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.6, 0, 0, 1.6, -288, -192)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 153)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "desktop",
+      "stage": "leadership",
+      "travel": 10.936,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4950)|1|none|0px;matrix(1.6, 0, 0, 1.6, -288, -192)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 153)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "t": 0,
+      "scroll": 0,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(0.970296, -0.241922, 0.241922, 0.970296, -150.148, -126.6)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;",
+      "active": "journey current-intro",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 0.45,
+      "scroll": 380,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(1, -1.1466e-05, 1.1466e-05, 1, -150.148, -100.1)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;",
+      "active": "journey current-intro",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 1,
+      "scroll": 844,
+      "rendered": "matrix(0.931574, 0, 0, 0.931574, 24.0175, -4078.72)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.97204px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.07345, 0, 0, 1, -25.7817, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 1.8,
+      "scroll": 1519,
+      "rendered": "matrix(0.267857, 0, 0, 0.267857, 256.982, -661.638)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.612083px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(3.73333, 0, 0, 1, -959.398, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 2.6,
+      "scroll": 2194,
+      "rendered": "matrix(0.6381, 0, 0, 0.6381, 127.027, -335.731)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.153577px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.56715, 0, 0, 1, -199.071, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 3.65,
+      "scroll": 3081,
+      "rendered": "matrix(1, 0, 0, 1, 0, 168.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-lookup",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 4.9,
+      "scroll": 4136,
+      "rendered": "matrix(1, 0, 0, 1, 0, -801.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-story",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 6.1,
+      "scroll": 5148,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1772.4)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-growing",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 7.3,
+      "scroll": 6161,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2743)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-harvest",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 8.6,
+      "scroll": 7258,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3713.6)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-partners",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 10.6,
+      "scroll": 8946,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.6, 0, 0, 1.6, -150.148, -100.094)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 143.48)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-leadership",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "t": 11,
+      "scroll": 9284,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.6, 0, 0, 1.6, -150.148, -100.094)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 143.48)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-leadership",
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "stage": "intro",
+      "travel": 0.024,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(0.970768, -0.240018, 0.240018, 0.970768, -150.148, -225.678)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "mobile",
+      "stage": "intro",
+      "travel": 0.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(0.979487, -0.201508, 0.201508, 0.979487, -150.148, -205.218)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "mobile",
+      "stage": "intro",
+      "travel": 0.24,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(0.993375, -0.114914, 0.114914, 0.993375, -150.148, -159.764)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "mobile",
+      "stage": "intro",
+      "travel": 0.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(0.999576, -0.0291302, 0.0291302, 0.999576, -150.148, -115.189)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "mobile",
+      "stage": "intro",
+      "travel": 0.48,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "mobile",
+      "stage": "intro",
+      "travel": 0.576,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(22.7828% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "mobile",
+      "stage": "growth",
+      "travel": 0.704,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4431)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(14.2392% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "growth",
+      "travel": 1.12,
+      "rendered": "matrix(0.863519, 0, 0, 0.863519, 47.9049, -3728.34)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.944015px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.15805, 0, 0, 1, -55.4763, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "growth",
+      "travel": 1.6400000000000001,
+      "rendered": "matrix(0.384409, 0, 0, 0.384409, 216.072, -1237.32)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.710486px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(2.60139, 0, 0, 1, -562.089, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "growth",
+      "travel": 2.16,
+      "rendered": "matrix(0.257315, 0, 0, 0.257315, 260.683, -362.619)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.401144px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(3.88629, 0, 0, 1, -1013.09, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "growth",
+      "travel": 2.68,
+      "rendered": "matrix(0.714122, 0, 0, 0.714122, 100.343, -270.359)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.119447px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.40032, 0, 0, 1, -140.512, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "growth",
+      "travel": 3.096,
+      "rendered": "matrix(0.985627, 0, 0, 0.985627, 5.04502, 139.034)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.00586592px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.01458, 0, 0, 1, -5.11859, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "lookup",
+      "travel": 3.248,
+      "rendered": "matrix(1, 0, 0, 1, 0, 168.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.213088|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "lookup",
+      "travel": 3.4400000000000004,
+      "rendered": "matrix(1, 0, 0, 1, 0, 168.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "lookup",
+      "travel": 3.68,
+      "rendered": "matrix(1, 0, 0, 1, 0, 168.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "lookup",
+      "travel": 3.92,
+      "rendered": "matrix(1, 0, 0, 1, 0, 168.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "lookup",
+      "travel": 4.16,
+      "rendered": "matrix(1, 0, 0, 1, 0, -173.198)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.308805|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "lookup",
+      "travel": 4.352,
+      "rendered": "matrix(1, 0, 0, 1, 0, -759.366)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "story",
+      "travel": 4.448,
+      "rendered": "matrix(1, 0, 0, 1, 0, -801.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.222656|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "story",
+      "travel": 4.640000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -801.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "story",
+      "travel": 4.880000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -801.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "story",
+      "travel": 5.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -801.8)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "story",
+      "travel": 5.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1147.53)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.302484|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "story",
+      "travel": 5.5520000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1730.35)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "growing",
+      "travel": 5.648000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1772.4)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.229269|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "growing",
+      "travel": 5.840000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1772.4)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "growing",
+      "travel": 6.08,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1772.4)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "growing",
+      "travel": 6.32,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1772.4)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "growing",
+      "travel": 6.5600000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2116.06)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.305981|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "growing",
+      "travel": 6.752000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2700.74)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "harvest",
+      "travel": 6.848000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2743)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.24464|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "harvest",
+      "travel": 7.040000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2743)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "harvest",
+      "travel": 7.280000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2743)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "harvest",
+      "travel": 7.5200000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2743)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "harvest",
+      "travel": 7.760000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3086.49)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.306267|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "harvest",
+      "travel": 7.952000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3669.26)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "mobile",
+      "stage": "partners",
+      "travel": 8.056,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3713.6)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0.288021|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "partners",
+      "travel": 8.28,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3713.6)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "partners",
+      "travel": 8.56,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3713.6)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "partners",
+      "travel": 8.84,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3713.6)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "partners",
+      "travel": 9.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4034.83)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0.319353|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "partners",
+      "travel": 9.344,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4596.75)|1|none|0px;matrix(1, 0, 0, 1, -150.148, -100.094)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "leadership",
+      "travel": 9.464,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.00642, 0, 0, 1.00642, -150.148, -100.094)|0.989299|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.168989, 0, 0, 0.168989, 0, 0)|0.010701|none|0px;matrix(1, 0, 0, 1, 0, 1.53537)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "leadership",
+      "travel": 9.72,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.15113, 0, 0, 1.15113, -150.148, -100.094)|0.748118|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.371581, 0, 0, 0.371581, 0, 0)|0.251882|none|0px;matrix(1, 0, 0, 1, 0, 36.14)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "leadership",
+      "travel": 10.040000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.44555, 0, 0, 1.44555, -150.148, -100.094)|0.257415|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.783772, 0, 0, 0.783772, 0, 0)|0.742585|none|0px;matrix(1, 0, 0, 1, 0, 106.546)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "leadership",
+      "travel": 10.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.6, 0, 0, 1.6, -150.148, -100.094)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 143.48)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "leadership",
+      "travel": 10.68,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.6, 0, 0, 1.6, -150.148, -100.094)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 143.48)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "mobile",
+      "stage": "leadership",
+      "travel": 10.936,
+      "rendered": "matrix(1, 0, 0, 1, 0, -4642)|1|none|0px;matrix(1.6, 0, 0, 1.6, -150.148, -100.094)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 143.48)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "t": 0,
+      "scroll": 0,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(0.970296, -0.241922, 0.241922, 0.970296, -138.594, -96)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;",
+      "active": "journey current-intro",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 0.45,
+      "scroll": 288,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(1, -1.20367e-05, 1.20367e-05, 1, -138.594, -92.3954)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;",
+      "active": "journey current-intro",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 1,
+      "scroll": 640,
+      "rendered": "matrix(0.932547, 0, 0, 0.932547, 21.8547, -3096.66)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.972439px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.07233, 0, 0, 1, -23.4355, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 1.8,
+      "scroll": 1152,
+      "rendered": "matrix(0.266911, 0, 0, 0.266911, 237.521, -498.022)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.610958px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(3.74656, 0, 0, 1, -889.886, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 2.6,
+      "scroll": 1664,
+      "rendered": "matrix(0.633562, 0, 0, 0.633562, 118.726, -257.041)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.155671px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.57838, 0, 0, 1, -187.395, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-growth",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 3.65,
+      "scroll": 2336,
+      "rendered": "matrix(1, 0, 0, 1, 0, 128)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-lookup",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 4.9,
+      "scroll": 3136,
+      "rendered": "matrix(1, 0, 0, 1, 0, -608)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-story",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 6.1,
+      "scroll": 3904,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1344)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-growing",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 7.3,
+      "scroll": 4672,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2080)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px",
+      "active": "journey current-harvest",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 8.6,
+      "scroll": 5504,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2816)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-partners",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 10.6,
+      "scroll": 6784,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.6, 0, 0, 1.6, -138.594, -92.3906)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 108.8)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-leadership",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "t": 11,
+      "scroll": 7040,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.6, 0, 0, 1.6, -138.594, -92.3906)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 108.8)|1|none|0px;none|1|none|0px;",
+      "active": "journey current-leadership",
+      "overflow": false
+    },
+    {
+      "device": "compact",
+      "stage": "intro",
+      "travel": 0.024,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(0.970758, -0.240059, 0.240059, 0.970758, -138.594, -187.637)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "compact",
+      "stage": "intro",
+      "travel": 0.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(0.979539, -0.201252, 0.201252, 0.979539, -138.594, -172.003)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "compact",
+      "stage": "intro",
+      "travel": 0.24,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(0.993448, -0.114285, 0.114285, 0.993448, -138.594, -137.39)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "compact",
+      "stage": "intro",
+      "travel": 0.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(0.999584, -0.028827, 0.028827, 0.999584, -138.594, -103.718)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "compact",
+      "stage": "intro",
+      "travel": 0.48,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(23% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "compact",
+      "stage": "intro",
+      "travel": 0.576,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(22.7665% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;;"
+    },
+    {
+      "device": "compact",
+      "stage": "growth",
+      "travel": 0.704,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3360)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(14.1511% 0px 0px)|0px;none|1|none|calc(1px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "growth",
+      "travel": 1.12,
+      "rendered": "matrix(0.861777, 0, 0, 0.861777, 44.7842, -2820.38)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.943293px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.16039, 0, 0, 1, -51.9673, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "growth",
+      "travel": 1.6400000000000001,
+      "rendered": "matrix(0.385261, 0, 0, 0.385261, 199.175, -941.463)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.711051px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(2.59564, 0, 0, 1, -516.988, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "growth",
+      "travel": 2.16,
+      "rendered": "matrix(0.254837, 0, 0, 0.254837, 241.433, -274.438)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.404508px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(3.92407, 0, 0, 1, -947.4, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "growth",
+      "travel": 2.68,
+      "rendered": "matrix(0.709765, 0, 0, 0.709765, 94.0362, -208.282)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.121361px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.40892, 0, 0, 1, -132.489, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "growth",
+      "travel": 3.096,
+      "rendered": "matrix(0.984427, 0, 0, 0.984427, 5.04576, 103.574)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|calc(0.00635574px);matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1.01582, 0, 0, 1, -5.12558, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "lookup",
+      "travel": 3.248,
+      "rendered": "matrix(1, 0, 0, 1, 0, 128)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.202811|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "lookup",
+      "travel": 3.4400000000000004,
+      "rendered": "matrix(1, 0, 0, 1, 0, 128)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "lookup",
+      "travel": 3.68,
+      "rendered": "matrix(1, 0, 0, 1, 0, 128)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "lookup",
+      "travel": 3.92,
+      "rendered": "matrix(1, 0, 0, 1, 0, 128)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "lookup",
+      "travel": 4.16,
+      "rendered": "matrix(1, 0, 0, 1, 0, -125.75)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.321414|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "lookup",
+      "travel": 4.352,
+      "rendered": "matrix(1, 0, 0, 1, 0, -574.492)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "story",
+      "travel": 4.448,
+      "rendered": "matrix(1, 0, 0, 1, 0, -608)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.22721|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "story",
+      "travel": 4.640000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -608)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "story",
+      "travel": 4.880000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -608)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "story",
+      "travel": 5.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -608)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "story",
+      "travel": 5.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -863.341)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.317803|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "story",
+      "travel": 5.5520000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1312.43)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "growing",
+      "travel": 5.648000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1344)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.225726|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "growing",
+      "travel": 5.840000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1344)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "growing",
+      "travel": 6.08,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1344)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "growing",
+      "travel": 6.32,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1344)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "growing",
+      "travel": 6.5600000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -1594.19)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.329538|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "growing",
+      "travel": 6.752000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2046.93)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "harvest",
+      "travel": 6.848000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2080)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.235411|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "harvest",
+      "travel": 7.040000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2080)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "harvest",
+      "travel": 7.280000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2080)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "harvest",
+      "travel": 7.5200000000000005,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2080)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|1|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "harvest",
+      "travel": 7.760000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2335.41)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0.317653|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "harvest",
+      "travel": 7.952000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2779.19)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;none|0|none|0px"
+    },
+    {
+      "device": "compact",
+      "stage": "partners",
+      "travel": 8.056,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2816)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0.292659|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "partners",
+      "travel": 8.28,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2816)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "partners",
+      "travel": 8.56,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2816)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "partners",
+      "travel": 8.84,
+      "rendered": "matrix(1, 0, 0, 1, 0, -2816)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "partners",
+      "travel": 9.12,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3059.22)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0.320211|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "partners",
+      "travel": 9.344,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3487.16)|1|none|0px;matrix(1, 0, 0, 1, -138.594, -92.3906)|1|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.16, 0, 0, 0.16, 0, 0)|0|none|0px;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;none|0|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "leadership",
+      "travel": 9.464,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.00736, 0, 0, 1.00736, -138.594, -92.3906)|0.987732|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.170305, 0, 0, 0.170305, 0, 0)|0.0122679|none|0px;matrix(1, 0, 0, 1, 0, 1.33475)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "leadership",
+      "travel": 9.72,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.14646, 0, 0, 1.14646, -138.594, -92.3906)|0.755894|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.365049, 0, 0, 0.365049, 0, 0)|0.244106|none|0px;matrix(1, 0, 0, 1, 0, 26.5587)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "leadership",
+      "travel": 10.040000000000001,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.44187, 0, 0, 1.44187, -138.594, -92.3906)|0.263545|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.778622, 0, 0, 0.778622, 0, 0)|0.736455|none|0px;matrix(1, 0, 0, 1, 0, 80.1263)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "leadership",
+      "travel": 10.36,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.59998, 0, 0, 1.59998, -138.594, -92.3906)|3.21758e-05|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(0.999973, 0, 0, 0.999973, 0, 0)|0.999968|none|0px;matrix(1, 0, 0, 1, 0, 108.797)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "leadership",
+      "travel": 10.68,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.6, 0, 0, 1.6, -138.594, -92.3906)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 108.8)|1|none|0px;none|1|none|0px;"
+    },
+    {
+      "device": "compact",
+      "stage": "leadership",
+      "travel": 10.936,
+      "rendered": "matrix(1, 0, 0, 1, 0, -3520)|1|none|0px;matrix(1.6, 0, 0, 1.6, -138.594, -92.3906)|0|inset(0% 0px 0px)|0px;none|1|none|0%;matrix(1, 0, 0, 1, 0, 0)|1|none|0px;matrix(1, 0, 0, 1, 0, 108.8)|1|none|0px;none|1|none|0px;"
+    }
+  ],
+  "note": "Headless installed Chrome. Physical phone camera, touch scrolling, and device keyboard acceptance remain unverified."
+}
