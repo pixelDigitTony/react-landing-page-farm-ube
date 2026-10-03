@@ -1,48 +1,52 @@
-# Ube Farm. From root to story.
+# Roote Origin prototype
 
-React, TypeScript, React Router and Vite, running on Node 26. The implementation uses the user-supplied Figma component and motion exports, with Cue as a behavior reference, and the scroll-craft engine unchanged.
+Photographic React 19 / TypeScript / Vite frontend using Node 26. Native scrolling, scoped GSAP animation, real HTML lookup, static public farm and batch records. The approved image-first design replaces the former growth introduction and worldflight. The old vendor engine remains unchanged and is no longer loaded.
 
-## Run locally
-
-```powershell
-npm ci
-npm run dev
-```
-
-The development server prints its URL. Production output is generated with `npm run build` and can be viewed with `npm run preview`. Deploy the `dist` directory with an SPA fallback to `index.html`, so direct `/farms/:farmId` links work. Camera scanning requires HTTPS outside localhost.
-
-## Edit content and colors
-
-Edit **`src/constants/site.ts`**. This file contains every heading, body, label, accessibility description, validation message, placeholder, sample farm record, display font name, and UI palette. Colors become CSS custom properties through `applyTheme()`; CSS contains no fixed UI palette values. Generated farm QR codes and the favicon also use this palette. `npm run assets` regenerates them; development and build run this automatically.
-
-`JOURNEY` in the same file controls stage labels and scroll weights. `src/lib/journey.ts` contains the root drop, growth, camera ascent/descent, and root-board timing. If weights change, adjust these choreography thresholds to match the desired narrative.
-
-The photographic cutouts retain their natural colors. To change the illustrations themselves, replace the originals in `design/assets` and run `npm run assets`. They are separate from all editable text and vector leaves.
-
-## Farm data and QR behavior
-
-The sample catalog uses IDs `0001`, `0002`, and `0003`. All names, locations, growing practices, imagery, and leadership role copy are clearly labeled as samples or awaiting supplied information. No backend, database, credentials, or invented farm statistics are included.
-
-`src/data/farms.ts` reads only the static catalog in the constants file. It makes no API requests. Keep leading zeroes in IDs. Manual entry and the scanner accept a printed ID or a same-origin `/farms/:farmId` URL. External URLs, malformed paths, and unknown farms receive recovery messages.
-
-Profiles generate a QR code containing the current site's canonical farm URL, and offer an SVG download. Static ID codes in `public/qr` are a scanner-compatible fallback and test fixtures. The scanner is loaded only after its button is pressed. It uses a rear camera where available, releases tracks on close/navigation/success, and offers manual entry when the camera cannot be used.
-
-## Motion and accessibility
-
-The native scroll journey follows one plant: root drop, dramatic ascent, tip lookup, story, growing care, harvest, partner leaves, and a root that grows into Sir Marco's leadership board. Waypoint buttons and Skip intro allow direct access. Browser Back restores the previous leaf position. Focused lookup controls remain reachable when the viewport shrinks for a keyboard.
-
-Reduced motion automatically uses an ordinary reading page with all content and still artwork. Visitors can also choose Reading view; that preference persists for the current session. Hidden scenes are inert, the QR scanner uses a native modal dialog, and copy is real selectable HTML.
-
-## Verification
+## Run
 
 ```powershell
-npm test
-npm run lint
-npm run build
-# Start a local server first, then:
-npm run test:browser
+npm.cmd ci
+npm.cmd run dev
+# Production preview
+npm.cmd run build
+npm.cmd run preview -- --host 127.0.0.1 --port 4173
 ```
 
-The browser script uses installed Chrome headlessly. Set `TEST_URL` to test a preview server; set `CHROME_PATH` if Chrome is elsewhere. It disables native pointer lock/capture, checks desktop, 390px mobile and 360px compact compositions, reduced motion, keyboard resizing, ID validation, profile routes, partner links, Back, QR download contents, camera error recovery, delayed camera cleanup, and real ZXing decoding with a simulated stream.
+For hosting, serve `dist` with an SPA fallback to `index.html`. Camera access requires HTTPS outside localhost. No server, MongoDB database, authentication, or protected member access is implemented.
 
-Screenshots, contact sheets, and the browser report live in `scrollcraft/builds/ube-farm/verification`. Physical phone camera, browser chrome, touch scrolling, and real mobile keyboard behavior still need device acceptance. The current revision uses the supplied foundations, motion notes, component exports, and tight transparent botanical assets. See `design/REIMPLEMENTATION.md` for the shared-camera and attachment contract.
+## Edit the prototype
+
+`src/constants/site.ts` is the content and theme entry point:
+
+- `SITE`: public copy, labels, errors, disclosures, metadata, accessibility text, date locale, download naming and optional hosted public origin.
+- `THEME`: UI colors, display/body fonts, scrim opacity, header dimensions, control shape and shadow.
+- `ASSETS`: responsive image paths, intrinsic dimensions and botanical attachment coordinates.
+- `MOTION`: responsive breakpoints, transform distances, durations and interaction scale.
+- `DEMO_DATA`: fictional public farms and batches; IDs remain strings.
+
+Photographic colors belong to the images. UI palette changes do not recolor them. Source PNGs and prompts are in `design/assets/origin`; optimized WebP delivery files are in `public/images/origin`. Run `npm.cmd run assets` after changing artwork. Builds prepare assets automatically. A connected transparent botanical layer preserves the vine/leaf relationship; landscape and edge foliage move independently. A full photographic poster keeps controls usable while layers load or if one fails.
+
+## Demo actions
+
+Use farm IDs `0001`, `0002`, `0003` or batch ID `SAMPLE-UBE-001`. Manual entry and camera decoding share the same resolver. It also accepts canonical root-relative and same-origin farm/batch URLs, preserves leading zeros, rejects external URLs, and reports ambiguous IDs. Case matters.
+
+Farm profiles and batch summaries generate downloadable SVG and PNG QR codes using the current origin, or `SITE.links.publicOrigin` for a hosted demo. The public batch records its source farm, sample growing summary, harvest date, processor and recipient. All data and imagery are illustrative. The member-access dialog explains the future MERN phase and collects no credentials.
+
+The farm directory contains all three records and searches names, locations and produce. Cooperative leadership roles remain awaiting confirmation. Browser Back restores the originating landing position. Header anchors use native links and focus the origin input when tracing a batch.
+
+## Motion and verification
+
+System reduced-motion preferences take precedence. A footer/mobile-menu toggle persists the optional motion-off choice for the session, including the previous `ube-reading` preference. Both modes use the same semantic content tree; roots remain fully visible with motion off.
+
+```powershell
+npm.cmd run test
+npm.cmd run lint
+npm.cmd run build
+# Run against the preview above
+npm.cmd run test:browser
+node scripts/verify-contrast.mjs
+```
+
+`TEST_URL` and `CHROME_PATH` optionally override the preview URL and installed Chrome path. Browser checks cover six viewport sizes, six sampled positions per animated region, motion preferences, routes, QR decoding/downloads, camera recovery/cleanup, navigation, static fallback and Axe scans. Evidence is in `scrollcraft/builds/roote-origin/verification`; the brief and delivery report are beside it.
+
+Headless desktop Chrome and simulated video do not establish physical iPhone/Android camera, keyboard, browser-chrome or touch acceptance. Those checks remain pending.

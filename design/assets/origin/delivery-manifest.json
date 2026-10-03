@@ -1,0 +1,114 @@
+[
+  {
+    "name": "master",
+    "variant": 800,
+    "bytes": 242890,
+    "alpha": false,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "master",
+    "variant": 1600,
+    "bytes": 360902,
+    "alpha": false,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "landscape",
+    "variant": 800,
+    "bytes": 233388,
+    "alpha": false,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "landscape",
+    "variant": 1600,
+    "bytes": 333196,
+    "alpha": false,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "plant",
+    "variant": 800,
+    "bytes": 136888,
+    "alpha": true,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "plant",
+    "variant": 1600,
+    "bytes": 214042,
+    "alpha": true,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "foreground",
+    "variant": 800,
+    "bytes": 7170,
+    "alpha": true,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "foreground",
+    "variant": 1600,
+    "bytes": 11190,
+    "alpha": true,
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "name": "farm-one",
+    "variant": 800,
+    "bytes": 115114,
+    "alpha": false,
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "name": "farm-one",
+    "variant": 1600,
+    "bytes": 115114,
+    "alpha": false,
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "name": "farm-two",
+    "variant": 800,
+    "bytes": 111592,
+    "alpha": false,
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "name": "farm-two",
+    "variant": 1600,
+    "bytes": 111592,
+    "alpha": false,
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "name": "soil",
+    "variant": 800,
+    "bytes": 170852,
+    "alpha": false,
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "name": "soil",
+    "variant": 1600,
+    "bytes": 494424,
+    "alpha": false,
+    "width": 1672,
+    "height": 941
+  }
+]

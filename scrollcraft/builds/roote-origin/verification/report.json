@@ -1,0 +1,695 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "node": "v26.9.0",
+  "checks": [
+    "desktop: responsive layout, six hero and six root frames, complete closing roots, reduced-motion composition",
+    "wide: responsive layout, six hero and six root frames, complete closing roots, reduced-motion composition",
+    "reference: responsive layout, six hero and six root frames, complete closing roots, reduced-motion composition",
+    "tablet: responsive layout, six hero and six root frames, complete closing roots, reduced-motion composition",
+    "mobile: responsive layout, six hero and six root frames, complete closing roots, reduced-motion composition",
+    "compact: responsive layout, six hero and six root frames, complete closing roots, reduced-motion composition",
+    "Lookup validation, farm/batch routes, SVG/PNG QR decoding, direct refresh, catalogue search, missing recovery, cooperative, member dialog, Back restoration, repeated routes, stored motion setting, mobile navigation and focus",
+    "Camera denial, missing camera, insecure context, retry, manual fallback and simulated keyboard reachability",
+    "Real ZXing farm and batch decoding from simulated video; camera starts only on request; delayed permission, Escape and success stop tracks",
+    "Failed decorative layer retains complete static poster and functional lookup",
+    "Input edits cancel pending navigation; slow artwork keeps semantic copy and controls available; keyboard skip and form focus work"
+  ],
+  "errors": [],
+  "states": [
+    {
+      "name": "desktop",
+      "region": "hero",
+      "i": 0,
+      "top": 0,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "desktop",
+      "region": "hero",
+      "i": 1,
+      "top": 160,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 5.5338)"
+    },
+    {
+      "name": "desktop",
+      "region": "hero",
+      "i": 2,
+      "top": 319,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 15.0977)"
+    },
+    {
+      "name": "desktop",
+      "region": "hero",
+      "i": 3,
+      "top": 479,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 24.7218)"
+    },
+    {
+      "name": "desktop",
+      "region": "hero",
+      "i": 4,
+      "top": 638,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 34.2857)"
+    },
+    {
+      "name": "desktop",
+      "region": "hero",
+      "i": 5,
+      "top": 798,
+      "overflow": false,
+      "curtain": "inset(27.572% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 43.9098)"
+    },
+    {
+      "name": "desktop",
+      "region": "roots",
+      "i": 0,
+      "top": 664,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 35.8496)"
+    },
+    {
+      "name": "desktop",
+      "region": "roots",
+      "i": 1,
+      "top": 761,
+      "overflow": false,
+      "curtain": "inset(19.9588% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 41.6842)"
+    },
+    {
+      "name": "desktop",
+      "region": "roots",
+      "i": 2,
+      "top": 858,
+      "overflow": false,
+      "curtain": "inset(39.9177% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 47.5188)"
+    },
+    {
+      "name": "desktop",
+      "region": "roots",
+      "i": 3,
+      "top": 956,
+      "overflow": false,
+      "curtain": "inset(60.0823% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "desktop",
+      "region": "roots",
+      "i": 4,
+      "top": 1053,
+      "overflow": false,
+      "curtain": "inset(80.0412% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "desktop",
+      "region": "roots",
+      "i": 5,
+      "top": 1150,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "wide",
+      "region": "hero",
+      "i": 0,
+      "top": 0,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "wide",
+      "region": "hero",
+      "i": 1,
+      "top": 180,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 5.9733)"
+    },
+    {
+      "name": "wide",
+      "region": "hero",
+      "i": 2,
+      "top": 360,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 15.5733)"
+    },
+    {
+      "name": "wide",
+      "region": "hero",
+      "i": 3,
+      "top": 540,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 25.1733)"
+    },
+    {
+      "name": "wide",
+      "region": "hero",
+      "i": 4,
+      "top": 720,
+      "overflow": false,
+      "curtain": "inset(3.0405% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 34.7733)"
+    },
+    {
+      "name": "wide",
+      "region": "hero",
+      "i": 5,
+      "top": 900,
+      "overflow": false,
+      "curtain": "inset(33.4459% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 44.3733)"
+    },
+    {
+      "name": "wide",
+      "region": "roots",
+      "i": 0,
+      "top": 702,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 33.8133)"
+    },
+    {
+      "name": "wide",
+      "region": "roots",
+      "i": 1,
+      "top": 821,
+      "overflow": false,
+      "curtain": "inset(20.1014% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 40.16)"
+    },
+    {
+      "name": "wide",
+      "region": "roots",
+      "i": 2,
+      "top": 939,
+      "overflow": false,
+      "curtain": "inset(40.0338% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 46.4533)"
+    },
+    {
+      "name": "wide",
+      "region": "roots",
+      "i": 3,
+      "top": 1057,
+      "overflow": false,
+      "curtain": "inset(59.9662% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "wide",
+      "region": "roots",
+      "i": 4,
+      "top": 1176,
+      "overflow": false,
+      "curtain": "inset(80.0676% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "wide",
+      "region": "roots",
+      "i": 5,
+      "top": 1294,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "reference",
+      "region": "hero",
+      "i": 0,
+      "top": 0,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "reference",
+      "region": "hero",
+      "i": 1,
+      "top": 120,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 4.1462)"
+    },
+    {
+      "name": "reference",
+      "region": "hero",
+      "i": 2,
+      "top": 241,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 13.794)"
+    },
+    {
+      "name": "reference",
+      "region": "hero",
+      "i": 3,
+      "top": 361,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 23.3621)"
+    },
+    {
+      "name": "reference",
+      "region": "hero",
+      "i": 4,
+      "top": 481,
+      "overflow": false,
+      "curtain": "inset(28.1977% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 32.9303)"
+    },
+    {
+      "name": "reference",
+      "region": "hero",
+      "i": 5,
+      "top": 602,
+      "overflow": false,
+      "curtain": "inset(63.3721% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 42.5781)"
+    },
+    {
+      "name": "reference",
+      "region": "roots",
+      "i": 0,
+      "top": 384,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 25.196)"
+    },
+    {
+      "name": "reference",
+      "region": "roots",
+      "i": 1,
+      "top": 453,
+      "overflow": false,
+      "curtain": "inset(20.0581% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 30.6977)"
+    },
+    {
+      "name": "reference",
+      "region": "roots",
+      "i": 2,
+      "top": 521,
+      "overflow": false,
+      "curtain": "inset(39.8256% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 36.1196)"
+    },
+    {
+      "name": "reference",
+      "region": "roots",
+      "i": 3,
+      "top": 590,
+      "overflow": false,
+      "curtain": "inset(59.8837% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 41.6213)"
+    },
+    {
+      "name": "reference",
+      "region": "roots",
+      "i": 4,
+      "top": 659,
+      "overflow": false,
+      "curtain": "inset(79.9419% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 47.1229)"
+    },
+    {
+      "name": "reference",
+      "region": "roots",
+      "i": 5,
+      "top": 728,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 48)"
+    },
+    {
+      "name": "tablet",
+      "region": "hero",
+      "i": 0,
+      "top": 0,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "tablet",
+      "region": "hero",
+      "i": 1,
+      "top": 164,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 1.6314)"
+    },
+    {
+      "name": "tablet",
+      "region": "hero",
+      "i": 2,
+      "top": 329,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 4.2196)"
+    },
+    {
+      "name": "tablet",
+      "region": "hero",
+      "i": 3,
+      "top": 493,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 6.7922)"
+    },
+    {
+      "name": "tablet",
+      "region": "hero",
+      "i": 4,
+      "top": 658,
+      "overflow": false,
+      "curtain": "inset(47.2669% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 9.3804)"
+    },
+    {
+      "name": "tablet",
+      "region": "hero",
+      "i": 5,
+      "top": 822,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 11.9529)"
+    },
+    {
+      "name": "tablet",
+      "region": "roots",
+      "i": 0,
+      "top": 511,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 7.0745)"
+    },
+    {
+      "name": "tablet",
+      "region": "roots",
+      "i": 1,
+      "top": 574,
+      "overflow": false,
+      "curtain": "inset(20.2572% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 8.0628)"
+    },
+    {
+      "name": "tablet",
+      "region": "roots",
+      "i": 2,
+      "top": 636,
+      "overflow": false,
+      "curtain": "inset(40.1929% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 9.0353)"
+    },
+    {
+      "name": "tablet",
+      "region": "roots",
+      "i": 3,
+      "top": 698,
+      "overflow": false,
+      "curtain": "inset(60.1286% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 10.0078)"
+    },
+    {
+      "name": "tablet",
+      "region": "roots",
+      "i": 4,
+      "top": 760,
+      "overflow": false,
+      "curtain": "inset(80.0643% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 10.9804)"
+    },
+    {
+      "name": "tablet",
+      "region": "roots",
+      "i": 5,
+      "top": 822,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 11.9529)"
+    },
+    {
+      "name": "mobile",
+      "region": "hero",
+      "i": 0,
+      "top": 0,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "mobile",
+      "region": "hero",
+      "i": 1,
+      "top": 180,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 2.1333)"
+    },
+    {
+      "name": "mobile",
+      "region": "hero",
+      "i": 2,
+      "top": 360,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 5.3333)"
+    },
+    {
+      "name": "mobile",
+      "region": "hero",
+      "i": 3,
+      "top": 540,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 8.5333)"
+    },
+    {
+      "name": "mobile",
+      "region": "hero",
+      "i": 4,
+      "top": 720,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 11.7333)"
+    },
+    {
+      "name": "mobile",
+      "region": "hero",
+      "i": 5,
+      "top": 900,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 14.9333)"
+    },
+    {
+      "name": "mobile",
+      "region": "roots",
+      "i": 0,
+      "top": 1012,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "mobile",
+      "region": "roots",
+      "i": 1,
+      "top": 1102,
+      "overflow": false,
+      "curtain": "inset(20.1794% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "mobile",
+      "region": "roots",
+      "i": 2,
+      "top": 1191,
+      "overflow": false,
+      "curtain": "inset(40.1345% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "mobile",
+      "region": "roots",
+      "i": 3,
+      "top": 1280,
+      "overflow": false,
+      "curtain": "inset(60.0897% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "mobile",
+      "region": "roots",
+      "i": 4,
+      "top": 1369,
+      "overflow": false,
+      "curtain": "inset(80.0448% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "mobile",
+      "region": "roots",
+      "i": 5,
+      "top": 1458,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "compact",
+      "region": "hero",
+      "i": 0,
+      "top": 0,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "compact",
+      "region": "hero",
+      "i": 1,
+      "top": 180,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 2.1333)"
+    },
+    {
+      "name": "compact",
+      "region": "hero",
+      "i": 2,
+      "top": 360,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 5.3333)"
+    },
+    {
+      "name": "compact",
+      "region": "hero",
+      "i": 3,
+      "top": 540,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 8.5333)"
+    },
+    {
+      "name": "compact",
+      "region": "hero",
+      "i": 4,
+      "top": 720,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 11.7333)"
+    },
+    {
+      "name": "compact",
+      "region": "hero",
+      "i": 5,
+      "top": 900,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 14.9333)"
+    },
+    {
+      "name": "compact",
+      "region": "roots",
+      "i": 0,
+      "top": 1172,
+      "overflow": false,
+      "curtain": "inset(0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "compact",
+      "region": "roots",
+      "i": 1,
+      "top": 1265,
+      "overflow": false,
+      "curtain": "inset(23.4257% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "compact",
+      "region": "roots",
+      "i": 2,
+      "top": 1359,
+      "overflow": false,
+      "curtain": "inset(47.1033% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "compact",
+      "region": "roots",
+      "i": 3,
+      "top": 1452,
+      "overflow": false,
+      "curtain": "inset(70.529% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "compact",
+      "region": "roots",
+      "i": 4,
+      "top": 1545,
+      "overflow": false,
+      "curtain": "inset(93.9547% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    },
+    {
+      "name": "compact",
+      "region": "roots",
+      "i": 5,
+      "top": 1638,
+      "overflow": false,
+      "curtain": "inset(100% 0% 0%)",
+      "background": "matrix(1, 0, 0, 1, 0, 16)"
+    }
+  ],
+  "accessibility": [
+    {
+      "name": "desktop",
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "violations": []
+    },
+    {
+      "name": "farm profile",
+      "violations": []
+    },
+    {
+      "name": "batch summary",
+      "violations": []
+    },
+    {
+      "name": "cooperative",
+      "violations": []
+    },
+    {
+      "name": "member preview",
+      "violations": []
+    }
+  ],
+  "note": "Installed Chrome headless. Physical iPhone/Android camera, keyboard and touch checks remain pending."
+}

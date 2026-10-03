@@ -1,11 +1,12 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import type { IScannerControls } from '@zxing/browser'
 import { SITE } from '../constants/site'
-import { farmRepository, resolveFarmId } from '../data/farms'
+import { originRepository } from '../data/farms'
+import type { OriginTarget } from '../data/farms'
 
 type Status = 'starting' | 'ready' | 'denied' | 'unavailable' | 'secure' | 'error'
 
-export function Scanner({ open, onClose, onFound, onManual }: { open: boolean; onClose: () => void; onFound: (id: string) => void; onManual: () => void }) {
+export function Scanner({ open, onClose, onFound, onManual }: { open: boolean; onClose: () => void; onFound: (target: OriginTarget) => void; onManual: () => void }) {
   const dialog = useRef<HTMLDialogElement>(null)
   const video = useRef<HTMLVideoElement>(null)
   const controls = useRef<IScannerControls | null>(null)
@@ -50,13 +51,11 @@ export function Scanner({ open, onClose, onFound, onManual }: { open: boolean; o
           if (!result || cancelled || checking || result.getText() === lastCode) return
           checking = true
           lastCode = result.getText()
-          const id = resolveFarmId(lastCode, location.origin)
-          if (!id) { setMessage(SITE.scanner.invalid); checking = false; return }
           try {
-            const farm = await farmRepository.getFarmById(id)
+            const result = await originRepository.resolve(lastCode, location.origin)
             if (cancelled) return
-            if (farm) { cancelled = true; stop(); callbacks.current.onFound(farm.id) }
-            else setMessage(SITE.scanner.missing)
+            if (result.status === 'found') { cancelled = true; stop(); callbacks.current.onFound(result.target) }
+            else setMessage(result.status === 'invalid' ? SITE.scanner.invalid : result.status === 'ambiguous' ? SITE.lookup.ambiguous : SITE.scanner.missing)
           } catch { if (!cancelled) setMessage(SITE.lookup.failed) }
           finally { checking = false }
         })

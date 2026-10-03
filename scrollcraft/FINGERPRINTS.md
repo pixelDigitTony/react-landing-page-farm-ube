@@ -29,6 +29,7 @@ changes only grammar and world will fail it.
 | Build | Grammar | Nav treatment | Hero device | Act-sequence shape | Close pattern | Signature move | World | Port |
 |---|---|---|---|---|---|---|---|---|
 | Ube Farm | Continuous botanical worldflight | Leaf waypoints, farm finder, mobile menu | Root drop beside trellis with independent soil | 8 stages, 11 viewport-heights, ascent peak | Same root grows into a held leadership board | Tip lookup, descending partner leaves, root-to-board return | Photographic botanical cutouts with editable vector leaves | 4173 |
+| Roote Origin | Natural-flow botanical feature | Sticky wordmark and route/anchor links | Image-first landscape with stationary leaf lookup | Three compact regions, immediate control, underground peak | Complete roots and cooperative invitation hold | Follow the vine through soil to the people behind the crop | Connected photographic plant, landscape and soil reveal | 4173 |
 
 First build. No earlier rows to compare against.
 
@@ -42,6 +43,7 @@ act-count-and-length band. The shared columns are what the next build inherits
 as a constraint, so writing them down is the whole point.
 
 - Ube Farm claims the root drop, upward vine climb to a QR lookup tip, descending partner leaves, and return to a root-shaped leadership board, across eight stages and 11 viewport-heights.
+- Roote Origin claims immediate photographic leaf lookup, native-flow farm previews and an underground root reveal ending in the cooperative. It intentionally shares the plant subject and public QR behavior with Ube Farm.
 
 ---
 

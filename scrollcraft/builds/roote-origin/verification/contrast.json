@@ -1,0 +1,114 @@
+[
+  {
+    "device": "desktop",
+    "selector": ".hero-copy h1",
+    "ratio": 3.28,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".hero-body",
+    "ratio": 11.27,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".origin-lookup h2",
+    "ratio": 5.77,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".origin-lookup label",
+    "ratio": 9.32,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".lookup-feedback",
+    "ratio": 8.2,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".roots-copy h2",
+    "ratio": 3.38,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".roots-copy a",
+    "ratio": 9.2,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "selector": ".home-footer p",
+    "ratio": 9.07,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".hero-copy h1",
+    "ratio": 3.41,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".hero-body",
+    "ratio": 4.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".origin-lookup h2",
+    "ratio": 12.39,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".origin-lookup label",
+    "ratio": 13.04,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".lookup-feedback",
+    "ratio": 12.33,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".roots-copy h2",
+    "ratio": 10.14,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".roots-copy a",
+    "ratio": 10.25,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "selector": ".home-footer p",
+    "ratio": 7.64,
+    "minimum": 4.5,
+    "pass": true
+  }
+]

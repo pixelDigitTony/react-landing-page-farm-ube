@@ -1,103 +1,93 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { BrowserRouter, Link, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom'
-import { ASSETS, JOURNEY, SITE, applyTheme } from './constants/site'
-import { farmPath, farmRepository } from './data/farms'
-import type { Farm } from './data/farms'
-import { waypointTravel } from './lib/journey'
-import { Lookup } from './components/Lookup'
+import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { BrowserRouter, Link, Route, Routes, useLocation, useNavigate, useNavigationType } from 'react-router-dom'
+import { applyTheme, SITE } from './constants/site'
+import { batchPath, originPath } from './data/farms'
+import type { OriginTarget } from './data/farms'
+import Landing from './components/FarmJourney'
 import { Scanner } from './components/Scanner'
-import { FarmQr } from './components/FarmQr'
-import { Landing } from './components/FarmJourney'
+import { Arrow, LeafMark } from './components/UI'
 import './App.css'
 
-function useReducedMotion() {
-  const [reduced, setReduced] = useState(() => matchMedia('(prefers-reduced-motion: reduce)').matches)
-  useEffect(() => {
-    const media = matchMedia('(prefers-reduced-motion: reduce)')
-    const update = () => setReduced(media.matches)
-    media.addEventListener('change', update)
-    return () => media.removeEventListener('change', update)
-  }, [])
-  return reduced
-}
+const FarmDirectory = lazy(() => import('./pages/PublicPages').then(module => ({ default: module.FarmDirectory })))
+const FarmProfile = lazy(() => import('./pages/PublicPages').then(module => ({ default: module.FarmProfile })))
+const BatchSummary = lazy(() => import('./pages/PublicPages').then(module => ({ default: module.BatchSummary })))
+const CooperativePage = lazy(() => import('./pages/PublicPages').then(module => ({ default: module.CooperativePage })))
+const MissingPage = lazy(() => import('./pages/PublicPages').then(module => ({ default: module.MissingPage })))
 
-function Profile({ back, onScan, openFarm }: { back: () => void; onScan: () => void; openFarm: (id: string) => void }) {
-  const { farmId } = useParams()
-  const [state, setState] = useState<{ farm: Farm | null; status: 'loading' | 'ready' | 'missing' | 'failed' }>({ farm: null, status: 'loading' })
-  const [retry, setRetry] = useState(0)
-  useEffect(() => {
-    let cancelled = false
-    farmRepository.getFarmById(farmId ?? '').then((farm) => { if (!cancelled) setState({ farm, status: farm ? 'ready' : 'missing' }) }).catch(() => { if (!cancelled) setState({ farm: null, status: 'failed' }) })
-    return () => { cancelled = true }
-  }, [farmId, retry])
-  useEffect(() => { if (state.status !== 'loading') document.querySelector<HTMLElement>('.profile-page h1')?.focus({ preventScroll: true }) }, [state.status])
-  const farm = state.farm
-  return <main className="profile-page" id="profile-content">
-    <button className="back-link" onClick={back}><span aria-hidden="true">{SITE.symbols.back}</span> {SITE.profile.back}</button>
-    {!farm ? <div className="profile-recovery" aria-live="polite"><h1 tabIndex={-1}>{state.status === 'loading' ? SITE.profile.loadingTitle : state.status === 'failed' ? SITE.profile.failedTitle : SITE.profile.missingTitle}</h1><p>{state.status === 'loading' ? SITE.profile.loadingBody : state.status === 'failed' ? SITE.profile.failedBody : SITE.profile.missingBody}</p>{state.status !== 'loading' && <><Lookup onFound={openFarm} onScan={onScan} /><button className="text-button" onClick={state.status === 'failed' ? () => setRetry(retry + 1) : back}>{state.status === 'failed' ? SITE.profile.retry : SITE.profile.browse}</button></>}</div> : <>
-      <div className="profile-hero"><div><span className="tag">{SITE.profile.sample}{SITE.symbols.separator}{SITE.profile.idLabel} {farm.id}</span><h1 tabIndex={-1}>{farm.name}</h1><p className="location">{farm.location}</p><p>{SITE.profile.disclosure}</p></div><figure><img src={ASSETS.plant} alt={SITE.accessibility.farmImage} /><figcaption>{SITE.profile.imageNote}</figcaption></figure></div>
-      <div className="profile-grid"><div className="profile-stories"><section><h2>{SITE.profile.storyTitle}</h2><p>{farm.story}</p></section><section><h2>{SITE.profile.practicesTitle}</h2><p>{farm.practices}</p></section><section><h2>{SITE.profile.contactTitle}</h2><p>{farm.contact || SITE.profile.noContact}</p></section></div><aside><div className="details-card"><h2>{SITE.profile.detailsTitle}</h2><dl><dt>{SITE.profile.idLabel}</dt><dd>{farm.id}</dd><dt>{SITE.profile.partnerLabel}</dt><dd>{farm.name}</dd><dt>{SITE.profile.location}</dt><dd>{farm.location}</dd></dl></div><FarmQr id={farm.id} /></aside></div>
-      <footer>{SITE.footer}</footer>
-    </>}
-  </main>
+function readChoice() { try { return sessionStorage.getItem('ube-reading') === 'true' } catch { return false } }
+function useMotionPreference() {
+  const [system, setSystem] = useState(() => matchMedia('(prefers-reduced-motion: reduce)').matches)
+  const [choice, setChoice] = useState(readChoice)
+  useEffect(() => { const query = matchMedia('(prefers-reduced-motion: reduce)'); const update = () => setSystem(query.matches); query.addEventListener('change', update); return () => query.removeEventListener('change', update) }, [])
+  const toggle = () => setChoice(value => { try { sessionStorage.setItem('ube-reading', String(!value)) } catch { /* Session preference is optional. */ } return !value })
+  return { system, off: system || choice, toggle }
 }
-
+function MemberPreview({ open, close }: { open: boolean; close: () => void }) {
+  const dialog = useRef<HTMLDialogElement>(null)
+  useEffect(() => { if (!open) return; const trigger = document.activeElement as HTMLElement; const element = dialog.current!; element.showModal(); return () => { element.close(); trigger?.focus({ preventScroll: true }) } }, [open])
+  return <dialog className="member-dialog" ref={dialog} aria-labelledby="member-title" onCancel={event => { event.preventDefault(); close() }} onClick={event => { if (event.target === dialog.current) close() }}><div className="member-panel"><button className="dialog-close" aria-label={SITE.member.close} onClick={close}>{SITE.symbols.close}</button><LeafMark /><h2 id="member-title">{SITE.member.title}</h2><p>{SITE.member.body}</p><ul>{SITE.member.roles.map(role => <li key={role}>{role}</li>)}</ul><p className="muted">{SITE.member.note}</p><Link className="button" to={batchPath(SITE.batch.sampleId)} onClick={close}>{SITE.member.action}<Arrow /></Link></div></dialog>
+}
 function FarmApp() {
-  const reduced = useReducedMotion()
-  const [readingChoice, setReadingChoice] = useState(() => sessionStorage.getItem('ube-reading') === 'true')
-  const reading = reduced || readingChoice
+  const location = useLocation()
+  const navigationType = useNavigationType()
+  const navigate = useNavigate()
+  const motion = useMotionPreference()
+  const motionOff = useRef(motion.off)
+  useLayoutEffect(() => { motionOff.current = motion.off }, [motion.off])
   const [menu, setMenu] = useState(false)
   const [scanner, setScanner] = useState(false)
-  const [active, setActive] = useState(0)
-  const viewport = useRef(window.innerHeight)
-  const onViewportChange = useCallback((height: number) => { viewport.current = height }, [])
-  const savedScroll = useRef(0)
-  const savedHeight = useRef(window.innerHeight)
-  const cameFromLanding = useRef(false)
-  const location = useLocation()
-  const navigate = useNavigate()
+  const [member, setMember] = useState(false)
+  const snapshots = useRef(new Map<string, { top: number; width: number; anchor: string }>())
   const home = location.pathname === '/'
-  const previousHome = useRef(home)
-  useLayoutEffect(() => {
-    if (home && !previousHome.current) requestAnimationFrame(() => scrollTo({ top: reading ? savedScroll.current : savedScroll.current * viewport.current / savedHeight.current, behavior: 'instant' }))
-    else if (!home) scrollTo({ top: 0, behavior: 'instant' })
-    previousHome.current = home
-  }, [home, location.pathname, reading])
-  const openFarm = (id: string) => {
+  useEffect(() => {
+    if (!menu) return
+    document.querySelector<HTMLAnchorElement>('#mobile-nav a')?.focus()
+    const escape = (event: KeyboardEvent) => { if (event.key === 'Escape') { setMenu(false); document.querySelector<HTMLButtonElement>('.menu-button')?.focus() } }
+    window.addEventListener('keydown', escape)
+    return () => window.removeEventListener('keydown', escape)
+  }, [menu])
+  const openTarget = useCallback((target: OriginTarget, anchor = 'origin') => {
+    if (home) snapshots.current.set(location.key, { top: scrollY, width: innerWidth, anchor })
     setScanner(false)
-    if (home) { savedScroll.current = scrollY; savedHeight.current = viewport.current; cameFromLanding.current = true }
-    navigate(farmPath(id))
-  }
-  const jump = (key: string, focus = false) => {
-    setMenu(false)
-    const go = () => {
-      if (reading) document.getElementById(`reading-${key}`)?.scrollIntoView({ behavior: reduced ? 'instant' : 'smooth', block: 'start' })
-      else scrollTo({ top: waypointTravel(key) * viewport.current, behavior: 'instant' })
-      if (focus) requestAnimationFrame(() => document.querySelector<HTMLInputElement>(reading ? '#reading-lookup input' : '.scene-lookup input')?.focus({ preventScroll: true }))
+    navigate(originPath(target), { state: { fromLanding: home } })
+  }, [home, location.key, navigate])
+  const openFarm = useCallback((id: string, anchor: string) => openTarget({ kind: 'farm', id }, anchor), [openTarget])
+  useLayoutEffect(() => {
+    let cancelled = false
+    const restore = () => {
+      if (cancelled) return
+      setMenu(false)
+      const saved = snapshots.current.get(location.key)
+      if (home && navigationType === 'POP' && saved) {
+        if (Math.abs(saved.width - innerWidth) < 2) scrollTo({ top: saved.top, behavior: 'instant' })
+        else document.getElementById(saved.anchor)?.scrollIntoView({ block: 'center', behavior: 'instant' })
+      } else if (home && location.hash) {
+        const section = document.getElementById(location.hash.slice(1))
+        section?.scrollIntoView({ behavior: motionOff.current ? 'instant' : 'smooth', block: 'start' })
+        if (location.hash === '#origin') section?.querySelector<HTMLInputElement>('input')?.focus({ preventScroll: true })
+      } else scrollTo({ top: 0, behavior: 'instant' })
     }
-    if (!home) { cameFromLanding.current = false; savedScroll.current = reading ? 0 : waypointTravel(key) * viewport.current; navigate('/'); setTimeout(go, 60) } else go()
-  }
-  const back = () => { if (cameFromLanding.current) navigate(-1); else jump('partners') }
-  const resetHome = () => { savedScroll.current = 0; setMenu(false); scrollTo({ top: 0, behavior: 'instant' }) }
-  const toggleReading = () => {
-    const next = !readingChoice
-    setReadingChoice(next)
-    sessionStorage.setItem('ube-reading', String(next))
-    scrollTo({ top: 0, behavior: 'instant' })
+    const frame = requestAnimationFrame(restore)
+    return () => { cancelled = true; cancelAnimationFrame(frame) }
+  }, [location.key, location.hash, home, navigationType])
+  const manual = () => {
+    setScanner(false)
+    requestAnimationFrame(() => {
+      if (home) document.getElementById('origin')?.scrollIntoView({ behavior: 'instant', block: 'center' })
+      document.querySelector<HTMLInputElement>(home ? '#origin input' : '.recovery input')?.focus({ preventScroll: true })
+    })
   }
   return <>
-    <a className="skip-link" href={home ? '#main-content' : '#profile-content'} onClick={(event) => { if (home) { event.preventDefault(); jump('lookup', true) } }}>{SITE.nav.skipContent}</a>
-    <header className="site-header"><Link className="brand" to="/" aria-label={SITE.nav.home} onClick={resetHome}>{SITE.brand}</Link><nav className="header-nav" aria-label={SITE.nav.menuLabel}>{(['story', 'partners'] as const).map((key) => <button key={key} onClick={() => jump(key)}>{SITE.nav[key]}</button>)}</nav><div className="header-actions"><button className="button" onClick={() => jump('lookup', true)}>{SITE.nav.find}<span aria-hidden="true">{SITE.symbols.forward}</span></button><button className="menu-button" aria-expanded={menu} aria-controls="mobile-navigation" onClick={() => setMenu(!menu)}>{menu ? SITE.nav.close : SITE.nav.menu}</button></div></header>
-    <nav id="mobile-navigation" className="mobile-navigation" aria-label={SITE.nav.menuLabel} hidden={!menu}>{JOURNEY.slice(2).map((point) => <button key={point.key} onClick={() => jump(point.key)}>{point.label}</button>)}<button disabled={reduced} onClick={() => { toggleReading(); setMenu(false) }}>{reading ? SITE.nav.animated : SITE.nav.reading}</button></nav>
-    <Landing hidden={!home} reading={reading} onScan={() => setScanner(true)} openFarm={openFarm} onFind={() => jump('lookup', true)} active={active} setActive={setActive} viewport={viewport} onViewportChange={onViewportChange} />
-    <Routes><Route path="/" element={null} /><Route path="/farms/:farmId" element={<Profile key={location.pathname} back={back} onScan={() => setScanner(true)} openFarm={openFarm} />} /><Route path="*" element={<Profile key={location.pathname} back={back} onScan={() => setScanner(true)} openFarm={openFarm} />} /></Routes>
-    {home && <><nav className="route-rail" aria-label={SITE.nav.waypointLabel}>{JOURNEY.slice(2).map((point, i) => <button key={point.key} aria-current={!reading && active === i + 2 ? 'step' : undefined} onClick={() => jump(point.key)}><span aria-hidden="true" />{point.label}</button>)}</nav><div className={`journey-tools ${reading ? 'reading-tools' : ''}`}>{!reading && active < 2 && <button onClick={() => jump('lookup')}>{SITE.nav.skip}<span aria-hidden="true">{SITE.symbols.forward}</span></button>}<button onClick={toggleReading} disabled={reduced}>{reading ? (reduced ? SITE.nav.reading : SITE.nav.animated) : SITE.nav.reading}</button></div></>}
-    <Scanner open={scanner} onClose={() => setScanner(false)} onFound={openFarm} onManual={() => { setScanner(false); if (home) jump('lookup', true); else setTimeout(() => document.querySelector<HTMLInputElement>('.profile-page input')?.focus(), 0) }} />
+    <a className="skip-link" href="#main-content">{SITE.nav.skip}</a>
+    <header className="site-header"><Link className="brand" to="/" aria-label={SITE.nav.home}><LeafMark /><span>{SITE.brand}</span></Link><nav className="desktop-nav" aria-label={SITE.nav.label}><Link to="/#farms">{SITE.nav.farms}</Link><Link to="/#roots">{SITE.nav.story}</Link><Link to="/#origin">{SITE.nav.trace}</Link><button onClick={() => setMember(true)}>{SITE.nav.member}</button></nav><button className="menu-button" aria-expanded={menu} aria-controls="mobile-nav" onClick={() => setMenu(!menu)}>{menu ? SITE.nav.close : SITE.nav.menu}<span aria-hidden="true">{menu ? SITE.symbols.close : SITE.symbols.menu}</span></button></header>
+    <nav id="mobile-nav" className="mobile-nav" aria-label={SITE.accessibility.menu} hidden={!menu} onKeyDown={event => { if (event.key === 'Escape') { setMenu(false); document.querySelector<HTMLButtonElement>('.menu-button')?.focus() } }}><Link to="/#farms">{SITE.nav.farms}</Link><Link to="/#roots">{SITE.nav.story}</Link><Link to="/#origin">{SITE.nav.trace}</Link><button onClick={() => { setMenu(false); setMember(true) }}>{SITE.nav.member}</button><button disabled={motion.system} onClick={motion.toggle}>{motion.off ? SITE.footer.enable : SITE.footer.reduce}</button></nav>
+    <Suspense fallback={<main id="main-content" className="detail-page"><p role="status">{SITE.profile.loading}</p></main>}><Routes><Route path="/" element={<Landing motionOff={motion.off} onScan={() => setScanner(true)} onFound={openTarget} onFarm={openFarm} />} /><Route path="/farms" element={<FarmDirectory onFarm={openFarm} />} /><Route path="/farms/:farmId" element={<FarmProfile onFound={openTarget} onScan={() => setScanner(true)} />} /><Route path="/batches/:batchId" element={<BatchSummary onFound={openTarget} onScan={() => setScanner(true)} />} /><Route path="/cooperative" element={<CooperativePage />} /><Route path="*" element={<MissingPage onFound={openTarget} onScan={() => setScanner(true)} />} /></Routes></Suspense>
+    <footer className={`site-footer ${home ? 'home-footer' : ''}`}><p>{SITE.footer.disclosure}</p><button className="motion-toggle" aria-pressed={motion.off} disabled={motion.system} onClick={motion.toggle}>{motion.system ? SITE.footer.system : motion.off ? SITE.footer.enable : SITE.footer.reduce}</button></footer>
+    <Scanner open={scanner} onClose={() => setScanner(false)} onFound={openTarget} onManual={manual} />
+    <MemberPreview open={member} close={() => setMember(false)} />
   </>
 }
-
 applyTheme()
 history.scrollRestoration = 'manual'
 export default function App() { return <BrowserRouter><FarmApp /></BrowserRouter> }
-
 
