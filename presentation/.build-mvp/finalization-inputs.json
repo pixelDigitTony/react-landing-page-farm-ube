@@ -1,0 +1,23 @@
+{
+  "candidatePath": "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\.build-mvp\\candidate.pptx",
+  "workspaceDir": "C:\\Users\\USER\\projects\\landing-pages\\ube-farm",
+  "finalPath": "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\mvp\\roote-origin-client-presentation-new-designs.pptx",
+  "expectedSlideSizeEmu": "12192000,6858000",
+  "fontPolicy": {
+    "basis": "reference",
+    "families": [
+      "Georgia",
+      "Arial"
+    ],
+    "referencePath": "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\ube-farm-client-presentation.pptx",
+    "referenceSha256": "ab182e79efb8b4d83296fe0fd4db93cd7e894044a619760670796492e9a1195e"
+  },
+  "explicitTotalSlideCount": 19,
+  "requiredNativeTableOwnerSlides": [
+    3,
+    4,
+    12,
+    13,
+    14
+  ]
+}

@@ -9,7 +9,7 @@ await fs.mkdir(output, { recursive: true })
 await fs.mkdir('public/qr', { recursive: true })
 const stats = []
 const encoderModified = (await fs.stat(import.meta.filename)).mtimeMs
-for (const name of ['master', 'landscape', 'plant', 'foreground', 'farm-one', 'farm-two', 'soil']) {
+for (const name of ['master', 'landscape', 'canopy', 'plant', 'foreground', 'farm-one', 'farm-two', 'soil', 'soil-lip']) {
   const path = `${input}/${name}.png`
   try {
     const meta = await sharp(path).metadata()
@@ -19,7 +19,8 @@ for (const name of ['master', 'landscape', 'plant', 'foreground', 'farm-one', 'f
       const source = await fs.stat(path)
       const previous = await fs.stat(destination).catch(() => null)
       if (!previous || previous.mtimeMs < Math.max(source.mtimeMs, encoderModified)) await sharp(path).resize({ width: name.startsWith('farm-') ? Math.min(width, 800) : width, withoutEnlargement: true }).webp({ quality: name.startsWith('farm-') ? 80 : 86, alphaQuality: 95 }).toFile(destination)
-      stats.push({ name, variant: width, bytes: (await fs.stat(destination)).size, alpha: meta.hasAlpha, width: meta.width, height: meta.height })
+      const delivery = await sharp(destination).metadata()
+      stats.push({ name, variant: width, bytes: (await fs.stat(destination)).size, alpha: delivery.hasAlpha, width: delivery.width, height: delivery.height, sourceWidth: meta.width, sourceHeight: meta.height })
     }
   } catch (error) {
     if (name === 'soil' && error.message.includes('missing')) continue

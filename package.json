@@ -17,16 +17,18 @@
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",
     "@fontsource/dm-sans": "^5.3.0",
+    "@gsap/react": "2.1.2",
     "@zxing/browser": "^0.2.1",
+    "gsap": "3.15.0",
     "qrcode": "^1.5.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.4",
-    "@gsap/react": "2.1.2",
-    "gsap": "3.15.0"
+    "react-router-dom": "^7.18.4"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@fontsource/space-grotesk": "^5.3.0",
     "@types/node": "26.6.4",
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19.2.18",
@@ -34,13 +36,16 @@
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
     "playwright-core": "^1.63.0",
+    "pptxgenjs": "^4.0.1",
     "sharp": "^0.35.5",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
-    "vitest": "^5.0.3",
-    "@axe-core/playwright": "4.13.0"
+    "vitest": "^5.0.3"
   },
   "engines": {
     "node": "26.x"
+  },
+  "overrides": {
+    "image-size": "2.0.3"
   }
 }

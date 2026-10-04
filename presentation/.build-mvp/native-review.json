@@ -1,0 +1,122 @@
+{
+  "source": "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\mvp\\roote-origin-client-presentation-new-designs.pptx",
+  "slides": 19,
+  "overflow": [],
+  "outsideCanvas": [],
+  "nativeTables": [
+    {
+      "slide": 3,
+      "rows": 2,
+      "columns": 4,
+      "top": 189.0,
+      "height": 206.25
+    },
+    {
+      "slide": 4,
+      "rows": 6,
+      "columns": 3,
+      "top": 172.5,
+      "height": 310.5
+    },
+    {
+      "slide": 12,
+      "rows": 4,
+      "columns": 3,
+      "top": 189.0,
+      "height": 257.25
+    },
+    {
+      "slide": 13,
+      "rows": 6,
+      "columns": 3,
+      "top": 172.5,
+      "height": 306.75
+    },
+    {
+      "slide": 14,
+      "rows": 6,
+      "columns": 3,
+      "top": 172.5,
+      "height": 306.75
+    }
+  ],
+  "nativeMedia": [],
+  "slideTexts": [
+    {
+      "slide": 1,
+      "text": "ROOTE ORIGIN SYSTEM\n01\nRoote Origin\rSystem\nMinimum viable product (MVP)\rand three design directions\nUbe Farm Cooperative\rDavao, Philippines\nClient discussion\r3 October 2026\nIllustrative concept photo"
+    },
+    {
+      "slide": 2,
+      "text": "Farm discovery and batch origin\nHelp people discover partner farms and follow the recorded origin of each produce batch.\nROOTE ORIGIN SYSTEM\n02\nFarm and produce catalogue\nDiscover approved farms, crops and batch availability. Find a farm or published batch by ID, QR or partner link.\nProtected member portal\nGrowers, processors and recipients manage their assigned records. Administrators control access and publication.\nConnected batch history\nRecord farming details, harvest dates and quantities, then link each batch to its processor and intended brand owner or distributor.\nConsumer QR summaries\nPublish a selected summary for each batch. Consumers scan it at a cafe, restaurant or on packaging without logging in.\nStarting with ube. Members record quantities and availability through the dashboard."
+    },
+    {
+      "slide": 3,
+      "text": "A sample batch journey\nIllustrative example only. All names, dates and records below are fictional.\nROOTE ORIGIN SYSTEM\n03\nFarming\nHarvest batch\nProcessing\nBrand or distributor\nFarm A\rDavao, Plot 01\rUbe, trellis-grown\rPlanted 1 Feb 2026\nSAMPLE-UBE-001\rHarvested 1 Oct 2026\r100 kg recorded\rSaved in batch history\nProcessor B\rProcessed 2 Oct 2026\rLot PROC-001\rSource SAMPLE-UBE-001\nBrand C\rIntended recipient\rLinked to PROC-001\rReceives origin history\nDecision before kickoff: does each processed lot use one harvest batch, or combine multiple harvests?"
+    },
+    {
+      "slide": 4,
+      "text": "Access across the ecosystem\nProposed access rules for confirmation. The cooperative decides who can see and edit each record.\nROOTE ORIGIN SYSTEM\n04\nParticipant\nCan view\nCan manage\nAdministrator\nAll ecosystem records\nUsers, farms, produce, corrections and publication\nGrower or farm team\nPermitted batch history\nAssigned growing and harvest records\nProcessor\nPermitted origin and harvest records\nAssigned processing, lot links and recipients\nBrand owner or distributor\nPermitted history of assigned batches\nAssigned acknowledgement and own partner details\nConsumer\nPublished profiles and batch summaries\nNone. Public viewing only\nProposed MVP: login, password recovery and permission checks in the backend."
+    },
+    {
+      "slide": 5,
+      "text": "One batch, two views\nSAMPLE-UBE-001 continues the fictional example. Consumers see only the approved public summary.\nROOTE ORIGIN SYSTEM\n05\nAuthorized member record\nFarm A, Davao, Plot 01\rPlanted 1 February 2026\rHarvested 1 October 2026, 100 kg\rProcessor B, Lot PROC-001\rIntended recipient: Brand C\rCare notes and correction history\nPublic QR summary\nBatch SAMPLE-UBE-001\rUbe from Farm A, Davao\rGrowing summary: trellis-grown ube\rHarvested 1 October 2026\rProcessed by Processor B for Brand C\rApproved details, no login required\nAdministrator preview, approval and publish/unpublish controls. Each batch has a stable URL and downloadable PNG/SVG QR artwork.\nFarm ID or QR opens a farm profile. Batch ID or QR opens that batch summary."
+    },
+    {
+      "slide": 6,
+      "text": "ROOTE ORIGIN SYSTEM\n06\nFrom Root to Story\nA forest-green world where one vine connects origin lookup, partner farms and the cooperative.\nDiscovery\nA prominent leaf holds farm or batch lookup. Farm previews follow the vine down to the people behind the roots.\nProposed scroll behavior\nA root drops beside the green trellis. The vine rises to the lookup leaf, then the scroll descends through stories, partner farms and leadership.\nStatic design concept. Illustrative imagery and sample records. Motion and mobile layouts are proposed."
+    },
+    {
+      "slide": 7,
+      "text": "The vine journey and origin lookup\nThe new opening makes lookup visible within the connected plant story.\nROOTE ORIGIN SYSTEM\n07\nLookup in the leaf\nEnter a farm or batch ID, or scan its QR, to open the corresponding public page.\nFarms along the vine\nScroll downward through the cooperative story and partner farm previews.\nPeople at the roots\nThe soil and root section introduces cooperative leadership.\nStatic design concept. Illustrative imagery and sample records. Motion and mobile layouts are proposed."
+    },
+    {
+      "slide": 8,
+      "text": "ROOTE ORIGIN SYSTEM\n08\nGrown Together in Davao\nWarm grower photography and an early farm directory make the cooperative easy to explore.\nDiscovery\nVisitors search farms or produce, filter the catalogue and open a farm profile. A separate lookup area resolves farm and batch IDs.\nProposed scroll behavior\nPhotographs reveal gently as the page moves. Farm records settle into readable rows, while origin lookup stays easy to reach.\nStatic design concept. Illustrative imagery and sample records. Motion and mobile layouts are proposed."
+    },
+    {
+      "slide": 9,
+      "text": "Growers, farms and a clear next step\nThe editorial opening leads directly into the catalogue and batch lookup.\nROOTE ORIGIN SYSTEM\n09\nMeet the growers\nA warm portrait and a clear farm link introduce the cooperative.\nBrowse the catalogue\nSearch farms or produce, then filter by crop and location.\nOpen the origin\nFarm and batch IDs lead to the right public profile or approved summary.\nStatic design concept. Illustrative imagery and sample records. Motion and mobile layouts are proposed."
+    },
+    {
+      "slide": 10,
+      "text": "ROOTE ORIGIN SYSTEM\n10\nPurple to the World\nBold purple-yam imagery leads into the recorded origin behind each harvest.\nDiscovery\nA sample batch summary introduces the farm, harvest, processor and recipient. Visitors can explore produce or find a specific batch.\nProposed scroll behavior\nThe yam moves as the product story opens into its origin record. Purple and pale sections guide visitors toward farms and batch lookup.\nStatic design concept. Illustrative imagery and sample records. Motion and mobile layouts are proposed."
+    },
+    {
+      "slide": 11,
+      "text": "The product and its recorded origin\nA strong product opening connects visitors to the batch information behind it.\nROOTE ORIGIN SYSTEM\n11\nUbe in focus\nThe crop takes center stage with routes to produce and batch discovery.\nA clear origin record\nAn illustrative summary shows a farm, harvest, processor and recipient.\nContinue to a farm\nPublic farm and batch links connect the product to its growing story.\nStatic design concept. Illustrative imagery and sample records. Motion and mobile layouts are proposed."
+    },
+    {
+      "slide": 12,
+      "text": "Choosing the public experience\nAll three directions use the proposed catalogue, member portal and batch QR features. Select one for implementation.\nROOTE ORIGIN SYSTEM\n12\nDirection\nWhat it emphasizes\nWhat it needs\nFrom Root to Story\nAn immersive vine journey with visible lookup\nBotanical assets, motion and mobile testing\nGrown Together in Davao\nGrowers and an easy-to-browse farm catalogue\nAuthentic photography and clear farm records\nPurple to the World\nProduce and public batch-origin information\nProduct imagery and accurate batch summaries\nAll three are new visual concepts. Confirm the selected design and motion work before finalizing delivery."
+    },
+    {
+      "slide": 13,
+      "text": "Proposed delivery: Weeks 1 to 5\nTarget: 10 weeks, subject to the selected design, agreed working availability and confirmed pilot workflow.\nROOTE ORIGIN SYSTEM\n13\nWeek\nMilestone\nPlanned output\nWeek 1\nConfirm the system\nConfirm one design, pilot records, roles, public fields and whether processors combine harvests.\nWeek 2\nBuild the foundation\nBuild MongoDB, the Express/Node.js API and sign-in. Test account access and role restrictions.\nWeek 3\nOrganize the ecosystem\nBuild farm, produce, partner and account forms. Test saving, editing and permitted access.\nWeek 4\nCapture farming details\nAdd planting, plot and care records. Test required fields, dates and record corrections.\nWeek 5\nTrack harvest batches\nAdd harvest IDs, quantities and status. Review the growing-to-harvest workflow with pilot users.\nConfirm the chosen redesign before kickoff. Testing starts during development in Week 2."
+    },
+    {
+      "slide": 14,
+      "text": "Proposed delivery: Weeks 6 to 10\nTarget: 10 weeks, subject to the selected design, agreed working availability and confirmed pilot workflow.\nROOTE ORIGIN SYSTEM\n14\nWeek\nMilestone\nPlanned output\nWeek 6\nConnect processing & recipients\nLink processors, lots and recipients. Test origin links and each participant's permitted access.\nWeek 7\nPublish the consumer view\nBuild public summaries, approvals and QR downloads. Test published, private and unknown IDs.\nWeek 8\nConnect the landing experience\nConnect the catalogue and chosen design. Check mobile, QR and reduced motion. First review round.\nWeek 9\nReview & accept the pilot\nComplete the second review round, pilot acceptance and final workflow, permission and device checks.\nWeek 10\nLaunch & transfer\nLaunch with HTTPS and backups. Check restore, train operators and confirm the support handover.\nReview rounds are proposed for Weeks 8 and 9. Client feedback or scope changes may move launch."
+    },
+    {
+      "slide": 15,
+      "text": "Proposed delivery and support\nConfirm these arrangements after selecting how we will work together.\nROOTE ORIGIN SYSTEM\n15\nProposed delivery items\nHTTPS production deployment\nDatabase backups and one restore check\nSource files and operator documentation\nOne training session and two revision rounds\n30 days of support for delivered defects\nPilot scope to confirm\nFarm catalogue with manually recorded quantities and availability\nOne harvest batch per processed lot, pending workflow confirmation\nQR artwork included. Partners handle physical printing\nE-commerce, full ERP stock control and external integrations need separate scope\nCombining harvests or adding new workflows requires revised scope and delivery planning."
+    },
+    {
+      "slide": 16,
+      "text": "Pilot acceptance and client inputs\nProposed acceptance checks for the pilot, to confirm before development starts.\nROOTE ORIGIN SYSTEM\n16\nAcceptance checks\nA complete farming-to-recipient batch journey\nSaved records after refresh and re-login\nEnforced public and private access\nCorrect production QR destinations\nMobile, keyboard and reduced-motion checks\nClient inputs\nApproved identity, photographs and leadership roles\nSample farm, batch and partner records\nConfirmed processing workflow and visibility rules\nDeployment accounts and one review contact\nProposed assisted setup: 10 farms, 20 batches and 25 accounts. Ordinary records can be added afterward."
+    },
+    {
+      "slide": 17,
+      "text": "How should we work together?\nROOTE ORIGIN SYSTEM\n17\nWill this be project-based, a service contract for an agreed period, or direct employment?\nProject-based\nDeliver the defined MVP through agreed milestones and a handover.\nDoes the engagement end after MVP acceptance and launch support?\nService contract\nProvide development and support over an agreed period.\nWhat duration, work commitment and ongoing support do you expect?\nDirect employment\nJoin the team in a role that supports the system and broader priorities.\nWhat role, reporting line and responsibilities do you have in mind?"
+    },
+    {
+      "slide": 18,
+      "text": "Decisions for the client discussion\nROOTE ORIGIN SYSTEM\n18\nPreferred design\nWhich of the three directions best represents the cooperative?\nPilot workflow\nDo processors combine harvests? Who records and approves the public batch details?\nWorking arrangement\nProject-based, a service contract for an agreed period, or direct employment?\nKickoff readiness\nWhat weekly availability and review schedule can we commit to?\nConfirm the design, workflow and working arrangement before finalizing scope and delivery dates."
+    },
+    {
+      "slide": 19,
+      "text": "Appendix: MERN implementation\nMongoDB, Express, React and Node.js 26, with TypeScript across the frontend and backend.\nROOTE ORIGIN SYSTEM\n19\nReact\nAnimated public website, farm catalogue, batch summaries and the member dashboard.\nExpress and Node.js 26\nAPI validation, authenticated access, role permissions and publication controls.\nMongoDB\nFarms, produce, members, batches, processing links, recipients and record history.\nUI text and colors stay in constants. Operators edit farm and batch data through the protected dashboard."
+    }
+  ]
+}

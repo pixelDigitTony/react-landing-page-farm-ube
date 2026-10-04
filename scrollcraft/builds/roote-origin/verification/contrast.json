@@ -1,113 +1,349 @@
 [
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".hero-copy h1",
-    "ratio": 3.28,
+    "ratio": 5.36,
     "minimum": 3,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".hero-body",
-    "ratio": 11.27,
+    "ratio": 11.59,
     "minimum": 4.5,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".origin-lookup h2",
-    "ratio": 5.77,
+    "ratio": 9.3,
     "minimum": 3,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".origin-lookup label",
-    "ratio": 9.32,
+    "ratio": 13.25,
     "minimum": 4.5,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".lookup-feedback",
-    "ratio": 8.2,
+    "ratio": 9.71,
     "minimum": 4.5,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".roots-copy h2",
-    "ratio": 3.38,
+    "ratio": 12.31,
     "minimum": 3,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".roots-copy a",
-    "ratio": 9.2,
+    "ratio": 13.52,
     "minimum": 4.5,
     "pass": true
   },
   {
     "device": "desktop",
+    "mode": "motion-off",
     "selector": ".home-footer p",
-    "ratio": 9.07,
+    "ratio": 9.16,
     "minimum": 4.5,
     "pass": true
   },
   {
-    "device": "mobile",
-    "selector": ".hero-copy h1",
-    "ratio": 3.41,
-    "minimum": 3,
-    "pass": true
-  },
-  {
-    "device": "mobile",
-    "selector": ".hero-body",
-    "ratio": 4.59,
-    "minimum": 4.5,
-    "pass": true
-  },
-  {
-    "device": "mobile",
-    "selector": ".origin-lookup h2",
-    "ratio": 12.39,
-    "minimum": 3,
-    "pass": true
-  },
-  {
-    "device": "mobile",
-    "selector": ".origin-lookup label",
-    "ratio": 13.04,
-    "minimum": 4.5,
-    "pass": true
-  },
-  {
-    "device": "mobile",
-    "selector": ".lookup-feedback",
-    "ratio": 12.33,
-    "minimum": 4.5,
-    "pass": true
-  },
-  {
-    "device": "mobile",
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.35,
     "selector": ".roots-copy h2",
-    "ratio": 10.14,
+    "ratio": 12.58,
     "minimum": 3,
     "pass": true
   },
   {
-    "device": "mobile",
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.35,
     "selector": ".roots-copy a",
-    "ratio": 10.25,
+    "skipped": "Text has not entered the viewport at this scroll position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.5,
+    "selector": ".roots-copy h2",
+    "ratio": 12.31,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.5,
+    "selector": ".roots-copy a",
+    "skipped": "Text has not entered the viewport at this scroll position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.7,
+    "selector": ".roots-copy h2",
+    "ratio": 12.31,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.7,
+    "selector": ".roots-copy a",
+    "ratio": 13.62,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".hero-copy h1",
+    "ratio": 6.36,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".hero-body",
+    "ratio": 7.89,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".origin-lookup h2",
+    "ratio": 13.71,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".origin-lookup label",
+    "ratio": 14.03,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".lookup-feedback",
+    "ratio": 11.52,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".roots-copy h2",
+    "ratio": 11.06,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".roots-copy a",
+    "ratio": 12.03,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".home-footer p",
+    "ratio": 8.56,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.35,
+    "selector": ".roots-copy h2",
+    "ratio": 12.44,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.35,
+    "selector": ".roots-copy a",
+    "skipped": "Text has not entered the viewport at this scroll position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.5,
+    "selector": ".roots-copy h2",
+    "ratio": 11.07,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.5,
+    "selector": ".roots-copy a",
+    "ratio": 12.16,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.7,
+    "selector": ".roots-copy h2",
+    "ratio": 11.07,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.7,
+    "selector": ".roots-copy a",
+    "ratio": 12.16,
     "minimum": 4.5,
     "pass": true
   },
   {
     "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".hero-copy h1",
+    "ratio": 3.8,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".hero-body",
+    "ratio": 10.65,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".origin-lookup h2",
+    "ratio": 13.13,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".origin-lookup label",
+    "ratio": 14.37,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".lookup-feedback",
+    "ratio": 14.05,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".roots-copy h2",
+    "ratio": 14.09,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".roots-copy a",
+    "ratio": 14.09,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
     "selector": ".home-footer p",
     "ratio": 7.64,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.35,
+    "selector": ".roots-copy h2",
+    "ratio": 14.08,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.35,
+    "selector": ".roots-copy a",
+    "ratio": 14.2,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.5,
+    "selector": ".roots-copy h2",
+    "ratio": 14.08,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.5,
+    "selector": ".roots-copy a",
+    "ratio": 14.2,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.7,
+    "selector": ".roots-copy h2",
+    "ratio": 14.08,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.7,
+    "selector": ".roots-copy a",
+    "ratio": 14.09,
     "minimum": 4.5,
     "pass": true
   }

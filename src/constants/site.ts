@@ -2,15 +2,26 @@
 export const THEME = {
   colors: { canvas: '#102F26', header: '#12372D', surface: '#173E32', surfaceDeep: '#0B211B', text: '#F5F0E5', textMuted: '#C2CCC0', buttonFill: '#F3ECDD', buttonText: '#15362B', border: '#8FA393', focus: '#D6E6AA', soil: '#251D17', ube: '#78518F', error: '#FFC1B7' },
   fonts: { display: 'Cormorant Garamond', body: 'DM Sans' },
-  opacity: { heroScrim: .88, leafScrim: .86, footerScrim: .85, cardSurface: .94, border: .55 },
-  layout: { desktopHeader: 68, mobileHeader: 60, gutterMax: 88, radius: 4 },
+  opacity: { heroScrim: .88, heroReading: .76, leafScrim: .86, rootsReading: .88, footerScrim: .85, cardSurface: .94, border: .55, secondary: .4, input: .85, farmsStart: .92, farmsEnd: .65, roots: .85, phoneRoots: .9, phoneHeroStart: .9, phoneHeroEnd: .4, phoneLeaf: .84, backdrop: .78, qrBorder: .4, divider: .3, placeholder: .8, disabled: .7 },
+  space: { xs: 4, s: 8, sm: 12, m: 16, ml: 20, l: 24, xl: 28, xxl: 32, xxxl: 36, section: 40, touch: 44, large: 48, larger: 52, huge: 64, hero: 76, sectionEnd: 80, gutter: 88, wide: 96, foliage: 110 },
+  typography: { brand: '28px', brandNarrow: '23px', brandTablet: '24px', brandPhone: '20px', brandCompact: '18px', body: '16px', control: '14px', small: '12px', input: '16px', hero: 'clamp(88px, 10vw, 128px)', heroNarrow: '100px', heroTablet: 'clamp(72px, 10vw, 94px)', heroPhone: 'clamp(48px, 13vw, 58px)', heroCompact: '48px', heroBody: 'clamp(18px, 1.85vw, 21px)', phoneBody: '17px', section: 'clamp(44px, 4.9vw, 68px)', sectionPhone: '39px', roots: 'clamp(54px, 5.7vw, 80px)', rootsPhone: '44px', lookup: 'clamp(30px, 3vw, 42px)', lookupPhone: '36px', detail: 'clamp(58px, 7vw, 96px)', detailPhone: '54px', subheading: '38px', qr: '34px', dialog: '40px', dialogPhone: '34px', card: '18px', cardPhone: '16px', lead: '20px', leadPhone: '18px', arrow: '21px', lineBody: 1.65, lineHeading: 1.05, lineHero: .94, linePhoneHero: .99, lineFeedback: 1.55, tracking: '-.035em', brandTracking: '.24em', phoneBrandTracking: '.17em', eyebrowTracking: '.22em' },
+  layout: { desktopHeader: 68, mobileHeader: 60, gutterMax: 88, radius: 4, gutter: '5.2vw', phoneGutter: 20, compactGutter: 16, heroHeight: 'clamp(600px, 55.4vw, 900px)', heroTablet: 950, heroPhone: 900, heroTop: 'clamp(135px, 14vw, 230px)', tabletTop: 100, phoneTop: 76, heroBottom: 70, rootsMin: 400, phoneRootsMin: 530, lookupMax: 420, lookupDesktopTop: 200, lookupReserve: 88, lookupPhoneGap: 36, lookupPhoneBottom: 40, lookupPadding: 18, controlHeight: 52, inputHeight: 48, focusWidth: 3, focusOffset: 5, borderWidth: 1, thumbAspect: 1.85, detailMax: 1320, qrWidth: 340, tabletQrWidth: 300, dialogWidth: 620, detailImageHeight: 360, phoneImageHeight: 250, sceneFade: 110, foliageWidth: 'clamp(450px, 65vw, 1000px)', foliageTop: 120 },
+  gradient: { heroHold: '50%', leafHold: '75%', readingHold: '75%', farmsHold: '90%', farmsFade: '85%', rootsFade: '45%', rootsFeather: '48px', soilOpaqueStart: '40%', footerFeather: '15px' },
   shadow: '0 12px 40px rgb(5 20 14 / 0.18)',
 } as const
-export const MOTION = { desktop: 1024, phone: 768, landscape: 48, middle: 24, foreground: -36, mobileLandscape: 16, mobileForeground: -20, cardRise: 14, mobileCardRise: 8, entrance: .5, stagger: .07, scrub: .35, cardScale: 1.025, arrowTravel: 4 } as const
-const image = (name: string, width: number, height: number) => ({ src: `/images/origin/${name}-1600.webp`, small: `/images/origin/${name}-800.webp`, width, height })
+export const MOTION = {
+  desktop: 1024, phone: 768, compact: 375, narrowDesktop: 1190,
+  landscape: 48, middle: 24, foreground: -36, mobileLandscape: 16, mobileMiddle: 8, mobileForeground: -20,
+  cardRise: 14, mobileCardRise: 8, entrance: .5, stagger: .07, scrub: .35,
+  cardScale: 1.025, arrowTravel: 4, hover: .3, ui: .18, arrow: .2, cssEase: 'ease', ease: 'none', entranceEase: 'power2.out',
+  rootReveal: { startViewport: .9, endViewport: .95, mobileEndViewport: .28, endHold: 32 },
+  trigger: { heroStart: 'top top', heroEnd: 'bottom top', cardsStart: 'top 85%' },
+} as const
+const image = (name: string, width: number, height: number) => ({ src: `/images/origin/${name}-1600.webp`, small: `/images/origin/${name}-800.webp`, width, height, smallWidth: Math.min(800, width), largeWidth: Math.min(name.startsWith('farm-') ? 800 : 1600, width) })
 export const ASSETS = {
-  landscape: image('landscape', 1086, 1448), master: image('master', 1086, 1448), plant: image('plant', 1086, 1448), foreground: image('foreground', 1086, 1448), soil: image('soil', 1672, 941), farmOne: image('farm-one-v2', 1672, 941), farmTwo: image('farm-two-v2', 1672, 941),
-  anchors: { pipeX: .625, rootCrownX: .625, leafPetiole: [.15, .38] as const },
+  landscape: image('landscape', 1086, 1448), canopy: image('canopy', 1086, 1080), master: image('master', 1086, 1448), plant: image('plant', 1086, 1448), foreground: image('foreground', 1086, 1448), soil: image('soil', 1672, 941), soilLip: image('soil-lip', 2043, 770), farmOne: image('farm-one-v2', 1672, 941), farmTwo: image('farm-two-v2', 1672, 941),
+  soilRevealMask: '/images/origin/soil-reveal-mask.svg',
+  anchors: { soilLine: .746, rootCrownX: .82, lookup: { x: .65, y: .155, width: .265, height: .205 }, alignment: { desktopLookup: .78, tabletLookup: .69, phoneCrown: .91 }, depth: { farEnd: .4, middleStart: .32, middleEnd: .73, depthFeather: .08 } },
 } as const
 export const SITE = {
   brand: 'ROOTE ORIGIN', title: 'Roote Origin | Every harvest starts here',
@@ -19,7 +30,7 @@ export const SITE = {
   links: { publicOrigin: '' }, format: { locale: 'en-PH', qrPrefix: 'roote-origin' },
   nav: { farms: 'Our farms', story: 'Our story', trace: 'Trace a batch', member: 'Member login', menu: 'Menu', close: 'Close menu', home: 'Roote Origin home', label: 'Main navigation', skip: 'Skip to content' },
   hero: { location: 'DAVAO, PHILIPPINES', title: 'Every harvest\nstarts here.', body: 'Discover the farms and people behind your ube.', explore: 'Explore our farms', story: 'Follow the story' },
-  lookup: { title: 'Find your origin', body: 'Enter a farm or batch ID, or scan its QR code.', label: 'Farm or batch ID', placeholder: 'Enter ID here…', submit: 'Find origin', scan: 'Scan QR', loading: 'Finding origin…', example: 'Sample IDs: 0001 or SAMPLE-UBE-001', empty: 'Enter the farm or batch ID printed beside your QR code.', invalid: 'Use a farm or batch ID, or a QR URL issued by this site.', notFound: 'That ID is not in this sample catalogue. Check the ID and try again.', ambiguous: 'This ID matches a farm and a batch. Use its full QR link to choose the correct record.', failed: 'The record could not be opened. Please try again.' },
+  lookup: { title: 'Find your origin', body: 'Enter a farm or batch ID, or scan its QR code.', label: 'Farm or batch ID', placeholder: 'Enter ID here…', submit: 'Find origin', scan: 'Scan QR', loading: 'Finding…', example: 'Sample IDs: 0001 or SAMPLE-UBE-001', empty: 'Enter the farm or batch ID printed beside your QR code.', invalid: 'Use a farm or batch ID, or a QR URL issued by this site.', notFound: 'That ID is not in this sample catalogue. Check the ID and try again.', ambiguous: 'This ID matches a farm and a batch. Use its full QR link to choose the correct record.', failed: 'The record could not be opened. Please try again.' },
   farms: { title: 'Meet the farms on our vine', sample: 'Sample farm records', action: 'View farm', all: 'View all farms', directory: 'Our farms', directoryBody: 'Explore the farms and produce in this illustrative cooperative catalogue.', search: 'Search farms', placeholder: 'Search by farm, location or produce', empty: 'No farms match your search.', clear: 'Clear search', count: 'farms', featured: ['0001', '0002'] },
   roots: { title: 'The people\nbehind the roots', action: 'Meet the cooperative' },
   profile: { back: 'Back to farms', sample: 'Sample farm record', disclosure: 'Illustrative imagery and sample records. Farm names, locations and growing practices await verified cooperative information.', story: 'The story of this farm', practices: 'Growing practices', produce: 'Produce', batches: 'Public sample batches', noBatches: 'No public sample batches are linked to this farm yet.', location: 'Location', id: 'Farm ID', imageNote: 'Illustrative farm photograph', missingTitle: 'Farm not found', missingBody: 'This farm is not in the sample catalogue. Find another origin or browse our farms.', loading: 'Opening the farm…', failed: 'The farm could not be opened.', retry: 'Try again' },
@@ -44,6 +55,10 @@ export function applyTheme() {
   const style = document.documentElement.style
   for (const [key, value] of Object.entries(THEME.colors)) style.setProperty(`--color-${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, value)
   for (const [key, value] of Object.entries(THEME.opacity)) style.setProperty(`--opacity-${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, String(value))
+  for (const [key, value] of Object.entries(THEME.space)) style.setProperty(`--space-${key}`, `${value}px`)
+  for (const [key, value] of Object.entries(THEME.typography)) style.setProperty(`--type-${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, String(value))
+  for (const [key, value] of Object.entries(THEME.layout)) style.setProperty(`--layout-${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, typeof value === 'number' && !['thumbAspect'].includes(key) ? `${value}px` : String(value))
+  for (const [key, value] of Object.entries(THEME.gradient)) style.setProperty(`--gradient-${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, value)
   style.setProperty('--font-display', `"${THEME.fonts.display}", Georgia, serif`)
   style.setProperty('--font-body', `"${THEME.fonts.body}", sans-serif`)
   style.setProperty('--header-height', `${THEME.layout.desktopHeader}px`)
@@ -53,6 +68,13 @@ export function applyTheme() {
   style.setProperty('--shadow', THEME.shadow)
   style.setProperty('--hover-scale', String(MOTION.cardScale))
   style.setProperty('--arrow-travel', `${MOTION.arrowTravel}px`)
+  style.setProperty('--motion-hover', `${MOTION.hover}s`)
+  style.setProperty('--motion-ui', `${MOTION.ui}s`)
+  style.setProperty('--motion-arrow', `${MOTION.arrow}s`)
+  style.setProperty('--motion-ease', MOTION.cssEase)
+  for (const [key, value] of Object.entries(ASSETS.anchors.depth)) style.setProperty(`--${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, `${value * 100}%`)
   document.title = SITE.title
   document.querySelector('meta[name="description"]')?.setAttribute('content', SITE.description)
 }
+export type Layout = 'desktop' | 'tablet' | 'phone' | 'compact'
+export function layoutForWidth(width: number): Layout { return width >= MOTION.desktop ? 'desktop' : width >= MOTION.phone ? 'tablet' : width >= MOTION.compact ? 'phone' : 'compact' }

@@ -4,8 +4,10 @@
     "variant": 800,
     "bytes": 242890,
     "alpha": false,
-    "width": 1086,
-    "height": 1448
+    "width": 800,
+    "height": 1067,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "master",
@@ -13,15 +15,19 @@
     "bytes": 360902,
     "alpha": false,
     "width": 1086,
-    "height": 1448
+    "height": 1448,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "landscape",
     "variant": 800,
     "bytes": 233388,
     "alpha": false,
-    "width": 1086,
-    "height": 1448
+    "width": 800,
+    "height": 1067,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "landscape",
@@ -29,15 +35,39 @@
     "bytes": 333196,
     "alpha": false,
     "width": 1086,
-    "height": 1448
+    "height": 1448,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
+  },
+  {
+    "name": "canopy",
+    "variant": 800,
+    "bytes": 141750,
+    "alpha": false,
+    "width": 800,
+    "height": 796,
+    "sourceWidth": 1086,
+    "sourceHeight": 1080
+  },
+  {
+    "name": "canopy",
+    "variant": 1600,
+    "bytes": 201124,
+    "alpha": false,
+    "width": 1086,
+    "height": 1080,
+    "sourceWidth": 1086,
+    "sourceHeight": 1080
   },
   {
     "name": "plant",
     "variant": 800,
     "bytes": 136888,
     "alpha": true,
-    "width": 1086,
-    "height": 1448
+    "width": 800,
+    "height": 1067,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "plant",
@@ -45,15 +75,19 @@
     "bytes": 214042,
     "alpha": true,
     "width": 1086,
-    "height": 1448
+    "height": 1448,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "foreground",
     "variant": 800,
     "bytes": 7170,
     "alpha": true,
-    "width": 1086,
-    "height": 1448
+    "width": 800,
+    "height": 1067,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "foreground",
@@ -61,54 +95,88 @@
     "bytes": 11190,
     "alpha": true,
     "width": 1086,
-    "height": 1448
+    "height": 1448,
+    "sourceWidth": 1086,
+    "sourceHeight": 1448
   },
   {
     "name": "farm-one",
     "variant": 800,
     "bytes": 115114,
     "alpha": false,
-    "width": 1672,
-    "height": 941
+    "width": 800,
+    "height": 450,
+    "sourceWidth": 1672,
+    "sourceHeight": 941
   },
   {
     "name": "farm-one",
     "variant": 1600,
     "bytes": 115114,
     "alpha": false,
-    "width": 1672,
-    "height": 941
+    "width": 800,
+    "height": 450,
+    "sourceWidth": 1672,
+    "sourceHeight": 941
   },
   {
     "name": "farm-two",
     "variant": 800,
     "bytes": 111592,
     "alpha": false,
-    "width": 1672,
-    "height": 941
+    "width": 800,
+    "height": 450,
+    "sourceWidth": 1672,
+    "sourceHeight": 941
   },
   {
     "name": "farm-two",
     "variant": 1600,
     "bytes": 111592,
     "alpha": false,
-    "width": 1672,
-    "height": 941
+    "width": 800,
+    "height": 450,
+    "sourceWidth": 1672,
+    "sourceHeight": 941
   },
   {
     "name": "soil",
     "variant": 800,
     "bytes": 170852,
     "alpha": false,
-    "width": 1672,
-    "height": 941
+    "width": 800,
+    "height": 450,
+    "sourceWidth": 1672,
+    "sourceHeight": 941
   },
   {
     "name": "soil",
     "variant": 1600,
     "bytes": 494424,
     "alpha": false,
-    "width": 1672,
-    "height": 941
+    "width": 1600,
+    "height": 900,
+    "sourceWidth": 1672,
+    "sourceHeight": 941
+  },
+  {
+    "name": "soil-lip",
+    "variant": 800,
+    "bytes": 111972,
+    "alpha": true,
+    "width": 800,
+    "height": 302,
+    "sourceWidth": 2043,
+    "sourceHeight": 770
+  },
+  {
+    "name": "soil-lip",
+    "variant": 1600,
+    "bytes": 387022,
+    "alpha": true,
+    "width": 1600,
+    "height": 603,
+    "sourceWidth": 2043,
+    "sourceHeight": 770
   }
 ]

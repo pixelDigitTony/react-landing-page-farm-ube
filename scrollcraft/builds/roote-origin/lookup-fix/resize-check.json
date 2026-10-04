@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "width": 3440,
+      "layout": "desktop",
+      "top": 268.40625,
+      "bottom": 578.5,
+      "header": 68,
+      "heroBottom": 1627
+    },
+    {
+      "width": 2551,
+      "layout": "desktop",
+      "top": 268.4375,
+      "bottom": 578.53125,
+      "header": 68,
+      "heroBottom": 1241
+    },
+    {
+      "width": 1440,
+      "layout": "desktop",
+      "top": 383.078125,
+      "bottom": 693.171875,
+      "header": 68,
+      "heroBottom": 865.75
+    },
+    {
+      "width": 834,
+      "layout": "tablet",
+      "top": 599.703125,
+      "bottom": 897.203125,
+      "header": 60,
+      "heroBottom": 1010
+    },
+    {
+      "width": 390,
+      "layout": "phone",
+      "top": 528.265625,
+      "bottom": 844.0625,
+      "header": 60,
+      "heroBottom": 960
+    },
+    {
+      "width": 2551,
+      "layout": "desktop",
+      "top": 268.4375,
+      "bottom": 578.53125,
+      "header": 68,
+      "heroBottom": 1241
+    }
+  ],
+  "lookupDestination": "http://localhost:5173/farms/0001"
+}

@@ -1,0 +1,12 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "Existing prototype: desktop, eight scroll states captured without horizontal overflow",
+    "Existing prototype: mobile, eight scroll states captured without horizontal overflow",
+    "Concept 02: desktop hero, full page and three content states; no horizontal overflow",
+    "Concept 02: mobile hero, full page and three content states; no horizontal overflow",
+    "Concept 03: desktop hero, full page and three content states; no horizontal overflow",
+    "Concept 03: mobile hero, full page and three content states; no horizontal overflow",
+    "Actual working prototype scroll recorded as H.264 MP4"
+  ]
+}

@@ -1,0 +1,34 @@
+﻿[
+    {
+        "source":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\ube-farm-client-presentation.pptx",
+        "pdf":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\ube-farm-client-presentation.pdf",
+        "slides":  10,
+        "overflow":  [
+
+                     ]
+    },
+    {
+        "source":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\source\\01-root-to-story.pptx",
+        "pdf":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\pdfs\\01-root-to-story.pdf",
+        "slides":  2,
+        "overflow":  [
+
+                     ]
+    },
+    {
+        "source":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\source\\02-grown-together.pptx",
+        "pdf":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\pdfs\\02-grown-together.pdf",
+        "slides":  2,
+        "overflow":  [
+
+                     ]
+    },
+    {
+        "source":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\source\\03-purple-to-world.pptx",
+        "pdf":  "C:\\Users\\USER\\projects\\landing-pages\\ube-farm\\presentation\\pdfs\\03-purple-to-world.pdf",
+        "slides":  2,
+        "overflow":  [
+
+                     ]
+    }
+]

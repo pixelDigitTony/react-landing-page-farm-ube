@@ -1,0 +1,40 @@
+[
+  {
+    "name": "desktop",
+    "ending": {
+      "scroll": 1063,
+      "max": 1063,
+      "heading": {
+        "x": 74.875,
+        "y": 530.46875,
+        "width": 470.640625,
+        "height": 160,
+        "top": 530.46875,
+        "right": 545.515625,
+        "bottom": 690.46875,
+        "left": 74.875
+      },
+      "curtain": "matrix(1, 0, 0, 1, 0, -487.672)"
+    },
+    "cooperativeLink": true
+  },
+  {
+    "name": "mobile",
+    "ending": {
+      "scroll": 1459,
+      "max": 1459,
+      "heading": {
+        "x": 20,
+        "y": 366.34375,
+        "width": 258.859375,
+        "height": 88,
+        "top": 366.34375,
+        "right": 278.859375,
+        "bottom": 454.34375,
+        "left": 20
+      },
+      "curtain": "matrix(1, 0, 0, 1, 0, -530)"
+    },
+    "cooperativeLink": true
+  }
+]

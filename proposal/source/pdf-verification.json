@@ -1,0 +1,19 @@
+{
+  "pages": 7,
+  "searchableText": true,
+  "characters": 14900,
+  "projectFee": 220000,
+  "weeks": 10,
+  "backend": "New backend included",
+  "stack": "MERN (MongoDB, Express, React, Node.js) with TypeScript",
+  "checks": [
+    "Seven A4 pages; no research/sources appendix",
+    "Every page has searchable text and correct footer",
+    "Itemized costs, payments and first-year budget verified",
+    "Farm inventory, protected batch chain and public QR included",
+    "All ten weekly milestones and negotiable/additional-cost clauses present",
+    "No stale static-only scope or free-backend-hosting claim",
+    "All pages fit without footer collision or horizontal overflow",
+    "All final PDF pages rendered with Poppler for visual review"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "links": 13,
+  "movie": {
+    "duration": 23.56,
+    "width": 1280,
+    "height": 720,
+    "currentTime": 0.462637,
+    "error": null
+  },
+  "checks": [
+    "Offline gallery links resolve",
+    "All gallery and concept images loaded",
+    "Gallery fits desktop and mobile",
+    "Standalone MP4 playback advanced without errors",
+    "Both concept mockups fit mobile offline"
+  ]
+}
