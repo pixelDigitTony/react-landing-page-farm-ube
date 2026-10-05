@@ -1,4 +1,5 @@
 /** All public copy, colors, records, assets and motion are edited here. */
+import { STORY_ASSETS } from './storyAssets.ts'
 export const THEME = {
   colors: { canvas: '#102F26', header: '#12372D', surface: '#173E32', surfaceDeep: '#0B211B', text: '#F5F0E5', textMuted: '#C2CCC0', buttonFill: '#F3ECDD', buttonText: '#15362B', border: '#8FA393', focus: '#D6E6AA', soil: '#251D17', ube: '#78518F', error: '#FFC1B7' },
   fonts: { display: 'Cormorant Garamond', body: 'DM Sans' },
@@ -8,6 +9,7 @@ export const THEME = {
   layout: { desktopHeader: 68, mobileHeader: 60, gutterMax: 88, radius: 4, gutter: '5.2vw', phoneGutter: 20, compactGutter: 16, heroHeight: 'clamp(600px, 55.4vw, 900px)', heroTablet: 950, heroPhone: 900, heroTop: 'clamp(135px, 14vw, 230px)', tabletTop: 100, phoneTop: 76, heroBottom: 70, rootsMin: 400, phoneRootsMin: 530, lookupMax: 420, lookupDesktopTop: 200, lookupReserve: 88, lookupPhoneGap: 36, lookupPhoneBottom: 40, lookupPadding: 18, controlHeight: 52, inputHeight: 48, focusWidth: 3, focusOffset: 5, borderWidth: 1, thumbAspect: 1.85, detailMax: 1320, qrWidth: 340, tabletQrWidth: 300, dialogWidth: 620, detailImageHeight: 360, phoneImageHeight: 250, sceneFade: 110, foliageWidth: 'clamp(450px, 65vw, 1000px)', foliageTop: 120 },
   gradient: { heroHold: '50%', leafHold: '75%', readingHold: '75%', farmsHold: '90%', farmsFade: '85%', rootsFade: '45%', rootsFeather: '48px', soilOpaqueStart: '40%', footerFeather: '15px' },
   shadow: '0 12px 40px rgb(5 20 14 / 0.18)',
+  story: { max: '1440px', section: 'clamp(76px, 9vw, 144px)', title: 'clamp(48px, 6.4vw, 92px)', phoneTitle: '44px', soilScrim: .9, stageMin: '560px', sceneMax: '1920px', shortStage: '720px', phoneLeafScrim: .85, recordBorder: .4, historyBorder: .25, trackOpacity: .3, botanyWidth: '1100px', heroMin: '780px', heroTabletMin: '1040px', heroPhoneMin: '930px', lookupTop: '220px', lookupRatio: .27, lookupRight: .07, readingTop: '14%', readingWidth: '46%', farmAspect: 2.1, farmPhoneAspect: .8, historyMin: '215px', historyPhoneMin: '210px' },
 } as const
 export const MOTION = {
   desktop: 1024, phone: 768, compact: 375, narrowDesktop: 1190,
@@ -16,11 +18,13 @@ export const MOTION = {
   cardScale: 1.025, arrowTravel: 4, hover: .3, ui: .18, arrow: .2, cssEase: 'ease', ease: 'none', entranceEase: 'power2.out',
   rootReveal: { startViewport: .9, endViewport: .95, mobileEndViewport: .28, endHold: 32 },
   trigger: { heroStart: 'top top', heroEnd: 'bottom top', cardsStart: 'top 85%' },
+  story: { pinTravel: 2.4, curtainFeather: 12, sceneScore: { revealStart: .28, revealEnd: .82 }, scrub: .3, cacheDesktop: 8, cachePhone: 6, decodeConcurrency: 3, preloadViewport: '100% 0px', farmInset: 12, farmScale: .94, transferStartViewport: .82, transferTravel: .58, transferHold: .12, transferFinish: .9, transferEase: 'power2.inOut', farmStart: 'top 78%', farmEnd: 'bottom 72%', defaultStart: 'top 90%', defaultEnd: 'bottom 10%', sceneStart: 'top 80%', sceneEnd: 'bottom 85%', stepStart: 'top 72%', stepEnd: 'bottom 25%', pathStart: 'top 70%', pathEnd: 'bottom 65%', minimumPinHeight: 680, frameDpr: 1.5, phoneDpr: 1 },
 } as const
 const image = (name: string, width: number, height: number) => ({ src: `/images/origin/${name}-1600.webp`, small: `/images/origin/${name}-800.webp`, width, height, smallWidth: Math.min(800, width), largeWidth: Math.min(name.startsWith('farm-') ? 800 : 1600, width) })
 export const ASSETS = {
   landscape: image('landscape', 1086, 1448), canopy: image('canopy', 1086, 1080), master: image('master', 1086, 1448), plant: image('plant', 1086, 1448), foreground: image('foreground', 1086, 1448), soil: image('soil', 1672, 941), soilLip: image('soil-lip', 2043, 770), farmOne: image('farm-one-v2', 1672, 941), farmTwo: image('farm-two-v2', 1672, 941),
   soilRevealMask: '/images/origin/soil-reveal-mask.svg',
+  story: { yam: '/images/story/yam.webp', ...STORY_ASSETS },
   anchors: { soilLine: .746, rootCrownX: .82, lookup: { x: .65, y: .155, width: .265, height: .205 }, alignment: { desktopLookup: .78, tabletLookup: .69, phoneCrown: .91 }, depth: { farEnd: .4, middleStart: .32, middleEnd: .73, depthFeather: .08 } },
 } as const
 export const SITE = {
@@ -30,6 +34,17 @@ export const SITE = {
   links: { publicOrigin: '' }, format: { locale: 'en-PH', qrPrefix: 'roote-origin' },
   nav: { farms: 'Our farms', story: 'Our story', trace: 'Trace a batch', member: 'Member login', menu: 'Menu', close: 'Close menu', home: 'Roote Origin home', label: 'Main navigation', skip: 'Skip to content' },
   hero: { location: 'DAVAO, PHILIPPINES', title: 'Every harvest\nstarts here.', body: 'Discover the farms and people behind your ube.', explore: 'Explore our farms', story: 'Follow the story' },
+  story: {
+    featuredBatchId: 'SAMPLE-UBE-001',
+    farmTitle: 'A place behind\nevery harvest.', farmBody: 'Start with a place. Meet the farm behind the sample harvest we will follow.', farmAction: 'Meet this farm',
+    undergroundTitle: 'Some stories grow\nout of sight.', undergroundBody: 'Follow the vine beneath the soil. This illustrative cutaway reveals the crop at its roots.', undergroundAlt: 'Illustrative ube plant above the soil with connected purple yam and fine roots beneath it',
+    harvestTitle: 'A harvest\nwith a history.', harvestBody: 'The crop becomes part of a batch record. A farm, a harvest date and an identity to follow.',
+    handoffsTitle: 'Follow the people\nbehind this batch.', handoffsBody: 'A public summary brings the recorded origin and handoffs together. Explore this fictional example of the Roote Origin System.',
+    growingStep: 'Where it begins', harvestStep: 'The harvest', processorStep: 'The processor', recipientStep: 'The intended recipient',
+    recordLabel: 'One sample harvest', openBatch: 'Open sample batch', publicSummary: 'An origin you can open.', publicBody: 'Scan this QR or open the public record to follow the same sample batch.',
+    closeBody: 'Farms, growers, processors and recipients share one origin story. Discover the cooperative and the farms connected through it.',
+    illustration: 'Illustrative growing scene. Sample data.', recordNote: 'Fictional public record. Intended recipient does not imply delivery.',
+  },
   lookup: { title: 'Find your origin', body: 'Enter a farm or batch ID, or scan its QR code.', label: 'Farm or batch ID', placeholder: 'Enter ID here…', submit: 'Find origin', scan: 'Scan QR', loading: 'Finding…', example: 'Sample IDs: 0001 or SAMPLE-UBE-001', empty: 'Enter the farm or batch ID printed beside your QR code.', invalid: 'Use a farm or batch ID, or a QR URL issued by this site.', notFound: 'That ID is not in this sample catalogue. Check the ID and try again.', ambiguous: 'This ID matches a farm and a batch. Use its full QR link to choose the correct record.', failed: 'The record could not be opened. Please try again.' },
   farms: { title: 'Meet the farms on our vine', sample: 'Sample farm records', action: 'View farm', all: 'View all farms', directory: 'Our farms', directoryBody: 'Explore the farms and produce in this illustrative cooperative catalogue.', search: 'Search farms', placeholder: 'Search by farm, location or produce', empty: 'No farms match your search.', clear: 'Clear search', count: 'farms', featured: ['0001', '0002'] },
   roots: { title: 'The people\nbehind the roots', action: 'Meet the cooperative' },
@@ -66,6 +81,7 @@ export function applyTheme() {
   style.setProperty('--gutter-max', `${THEME.layout.gutterMax}px`)
   style.setProperty('--radius', `${THEME.layout.radius}px`)
   style.setProperty('--shadow', THEME.shadow)
+  for (const [key, value] of Object.entries(THEME.story)) style.setProperty(`--story-${key.replace(/[A-Z]/g, c => `-${c.toLowerCase()}`)}`, typeof value === 'number' ? String(value) : value)
   style.setProperty('--hover-scale', String(MOTION.cardScale))
   style.setProperty('--arrow-travel', `${MOTION.arrowTravel}px`)
   style.setProperty('--motion-hover', `${MOTION.hover}s`)

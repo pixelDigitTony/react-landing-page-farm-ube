@@ -1,0 +1,17 @@
+{
+  "viewports": 8,
+  "states": 48,
+  "accessibility": [
+    {
+      "name": "desktop",
+      "index": 3,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "index": 3,
+      "violations": []
+    }
+  ],
+  "note": "Final handoff regression uses measured transfer boundaries after the completed reveal hold. Other region snapshots come from the full browser run."
+}

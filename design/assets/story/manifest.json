@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "desktop",
+    "width": 1280,
+    "height": 720,
+    "count": 60,
+    "bytes": 7897632
+  },
+  {
+    "variant": "phone",
+    "width": 480,
+    "height": 640,
+    "count": 40,
+    "bytes": 2689918
+  }
+]

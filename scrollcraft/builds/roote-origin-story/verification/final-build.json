@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-05T01:11:10.222Z",
+  "url": "http://127.0.0.1:4173/",
+  "buildIndexSha256": "c03d6e4af0c364acf063fd6ab723edbd52a6b9eabed00b5b205fb68fe8619ac0",
+  "assets": [
+    "/assets/index-DJruwhhf.js",
+    "/assets/rolldown-runtime-CbXtAM7H.js",
+    "/assets/index-KoNbP24b.css"
+  ],
+  "reports": {
+    "report": {
+      "sha256": "abb3b45e85d8f0df4b6a1c1212fd77a154fda90000673ba86fc7e05b45aeb4bf",
+      "modified": "2026-10-05T01:08:57.033Z"
+    },
+    "contrast": {
+      "sha256": "f5feefbe6215b0d4c0b9d51fe4fd81d87f02935d07cb1237415b273680ac56aa",
+      "modified": "2026-10-05T01:08:46.487Z"
+    },
+    "handoff-review": {
+      "sha256": "6376d5506dbee3656ca7b2056afb09461fd2f77ae68e32d7a2e3b4ab78ba0212",
+      "modified": "2026-10-05T01:08:49.312Z"
+    },
+    "recordings": {
+      "sha256": "090d6093a76ca0894375588028c754dd92aa7cc7611bbdc91e75af0369c22db2",
+      "modified": "2026-10-05T01:11:09.474Z"
+    },
+    "curtain/results": {
+      "sha256": "948d92fcc2df172f9b003847b9d80c3a24600c609a927edfd536e2f467458106",
+      "modified": "2026-10-05T01:07:14.806Z"
+    }
+  },
+  "performance": {
+    "scene": "Center-opening soil curtain over two matching photographic plates",
+    "legacyFrameRequests": 0,
+    "note": "Frame-cache and frame-lag reports belong to the historical sequence implementation. Physical-device performance remains pending."
+  },
+  "unitTests": 30,
+  "lint": "passed without warnings",
+  "build": "passed",
+  "pending": [
+    "physical iPhone/Android acceptance",
+    "unfamiliar-reader comprehension",
+    "ordinary-laptop profiling"
+  ]
+}

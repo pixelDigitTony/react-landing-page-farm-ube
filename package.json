@@ -9,6 +9,7 @@
     "lint": "oxlint src scripts vite.config.ts",
     "preview": "vite preview",
     "assets": "node scripts/prepare-assets.mjs",
+    "assets:story": "node scripts/prepare-story.mjs",
     "predev": "npm run assets",
     "prebuild": "npm run assets",
     "test": "vitest run",

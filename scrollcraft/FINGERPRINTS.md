@@ -30,6 +30,7 @@ changes only grammar and world will fail it.
 |---|---|---|---|---|---|---|---|---|
 | Ube Farm | Continuous botanical worldflight | Leaf waypoints, farm finder, mobile menu | Root drop beside trellis with independent soil | 8 stages, 11 viewport-heights, ascent peak | Same root grows into a held leadership board | Tip lookup, descending partner leaves, root-to-board return | Photographic botanical cutouts with editable vector leaves | 4173 |
 | Roote Origin | Natural-flow botanical feature | Sticky wordmark and route/anchor links | Image-first landscape with stationary leaf lookup | Three compact regions, immediate control, underground peak | Complete roots and cooperative invitation hold | Follow the vine through soil to the people behind the crop | Connected photographic plant, landscape and soil reveal | 4173 |
+| Roote Origin harvest story | Guided photographic chapters | Sticky wordmark, route links and bypass anchors | Immediate landscape and stationary leaf utility | Six connected beats; one short desktop underground pin | Public batch and QR payoff, then cooperative and farm choices | Revealed yam transfers into its batch identity; root-like path follows recorded handoffs | Blender-rendered photographic 2.5D cutaway, portrait camera and semantic records | 4173 |
 
 First build. No earlier rows to compare against.
 
@@ -44,6 +45,7 @@ as a constraint, so writing them down is the whole point.
 
 - Ube Farm claims the root drop, upward vine climb to a QR lookup tip, descending partner leaves, and return to a root-shaped leadership board, across eight stages and 11 viewport-heights.
 - Roote Origin claims immediate photographic leaf lookup, native-flow farm previews and an underground root reveal ending in the cooperative. It intentionally shares the plant subject and public QR behavior with Ube Farm.
+- Roote Origin harvest story claims crop-to-batch subject continuity and a recorded-handoff connector across six chapters. It intentionally retains the current hero and header, while changing grammar, sequence, close and signature; it differs on all six dimensions from the original Ube Farm worldflight.
 
 ---
 

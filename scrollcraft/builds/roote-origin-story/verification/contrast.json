@@ -1,0 +1,1272 @@
+[
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".hero-copy h1",
+    "ratio": 6.21,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".hero-body",
+    "ratio": 9.73,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".origin-lookup h2",
+    "ratio": 10.36,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".origin-lookup label",
+    "ratio": 13.24,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".lookup-feedback",
+    "ratio": 9.74,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".origin-photo-frame figcaption strong",
+    "ratio": 12.91,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".origin-photo-frame figcaption .text-link",
+    "ratio": 12.87,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".underground-reading h2",
+    "ratio": 11.06,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".underground-reading p",
+    "ratio": 11.7,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "motion-off",
+    "selector": ".home-footer p",
+    "ratio": 10.17,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".underground-reading h2",
+    "ratio": 11.06,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".underground-reading p",
+    "ratio": 11.7,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".underground-reading h2",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".underground-reading p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".underground-reading h2",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".underground-reading p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".underground-reading h2",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".underground-reading p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".underground-reading h2",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".underground-reading p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".underground-reading h2",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".underground-reading p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-intro > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-intro > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy h3",
+    "ratio": 12.44,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy h3",
+    "ratio": 12.44,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "desktop",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".hero-copy h1",
+    "ratio": 8.92,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".hero-body",
+    "ratio": 9.77,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".origin-lookup h2",
+    "ratio": 13.88,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".origin-lookup label",
+    "ratio": 14.2,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".lookup-feedback",
+    "ratio": 11.41,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".origin-photo-frame figcaption strong",
+    "ratio": 12.82,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".origin-photo-frame figcaption .text-link",
+    "ratio": 12.82,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".underground-reading h2",
+    "ratio": 11.2,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".underground-reading p",
+    "ratio": 11.08,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "motion-off",
+    "selector": ".home-footer p",
+    "ratio": 10.17,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".underground-reading h2",
+    "ratio": 11.21,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".underground-reading p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".underground-reading h2",
+    "ratio": 11.21,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".underground-reading p",
+    "ratio": 11.18,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".underground-reading h2",
+    "ratio": 11.21,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".underground-reading p",
+    "ratio": 11.18,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".underground-reading h2",
+    "ratio": 11.21,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".underground-reading p",
+    "ratio": 11.08,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".underground-reading h2",
+    "ratio": 11.2,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".underground-reading p",
+    "ratio": 11.08,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".underground-reading h2",
+    "ratio": 11.45,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".underground-reading p",
+    "ratio": 11.08,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy h3",
+    "ratio": 12.44,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy h3",
+    "ratio": 12.44,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy h3",
+    "ratio": 12.44,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy h3",
+    "ratio": 12.44,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "tablet",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".hero-copy h1",
+    "ratio": 3.78,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".hero-body",
+    "ratio": 12.05,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".origin-lookup h2",
+    "ratio": 10.26,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".origin-lookup label",
+    "ratio": 14.15,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".lookup-feedback",
+    "ratio": 12.7,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".origin-photo-frame figcaption strong",
+    "ratio": 12.82,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".origin-photo-frame figcaption .text-link",
+    "ratio": 12.69,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".underground-reading h2",
+    "ratio": 14.59,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "motion-off",
+    "selector": ".home-footer p",
+    "ratio": 10.17,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".underground-reading h2",
+    "ratio": 14.59,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".underground-reading h2",
+    "ratio": 14.59,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.2,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".underground-reading h2",
+    "ratio": 14.59,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.4,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".underground-reading h2",
+    "ratio": 14.59,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.6,
+    "selector": ".scene-disclosure",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".underground-reading h2",
+    "ratio": 14.59,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 0.8,
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".underground-reading h2",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".underground-reading p",
+    "ratio": 14.59,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-roots",
+    "progress": 1,
+    "selector": ".scene-disclosure",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-intro > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.2,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.4,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.6,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 0.8,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-intro > p",
+    "ratio": 10.02,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy h3",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy > p",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  },
+  {
+    "device": "mobile",
+    "mode": "animated-handoff",
+    "progress": 1,
+    "selector": ".harvest-record-copy dl div:first-child dd",
+    "skipped": "Text is outside the viewport or behind the sticky header at this position"
+  }
+]

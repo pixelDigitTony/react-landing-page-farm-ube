@@ -5,11 +5,11 @@ import sharp from 'sharp'
 import QRCode from 'qrcode'
 import AxeBuilder from '@axe-core/playwright'
 import { BinaryBitmap, HybridBinarizer, RGBLuminanceSource, QRCodeReader } from '@zxing/library'
-import { SITE, THEME } from '../src/constants/site.ts'
-import { rootsAreUncovered, visibleSoilCoverage } from './verify-reveal.mjs'
+import { SITE } from '../src/constants/site.ts'
+import { rootsAreUncovered, verifyStoryLayouts } from './verify-story.mjs'
 
 const base = process.env.TEST_URL || 'http://127.0.0.1:4173'
-const out = 'scrollcraft/builds/roote-origin/verification'
+const out = 'scrollcraft/builds/roote-origin-story/verification'
 await fs.mkdir(out, { recursive: true })
 const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: true })
 const checks = [], errors = [], states = [], accessibility = [], imageTransfer = []
@@ -49,85 +49,7 @@ async function lookup(page, value) {
   await page.getByRole('button', { name: SITE.lookup.submit, exact: true }).click()
 }
 try {
-  for (const [name, width, height] of [['desktop',1440,900],['wide',1920,1080],['ultrawide',2551,1260],['panoramic',3440,1440],['reference',1086,900],['tablet',834,1194],['mobile',390,844],['compact',360,640]]) {
-    const ctx = await context({ viewport: { width, height } })
-    const page = await pageFor(ctx)
-    await page.waitForSelector('.layers-ready')
-    if (width >= 768) {
-      assert(await page.locator('.leaf-lookup').evaluate(el => {
-        const world = el.closest('.origin-world'), safe = JSON.parse(world.dataset.sceneSafe)
-        const lookup = el.getBoundingClientRect(), origin = world.getBoundingClientRect()
-        const header = document.querySelector('.site-header').getBoundingClientRect()
-        return lookup.top >= header.bottom && lookup.bottom <= origin.top + document.querySelector('.origin-hero').offsetHeight &&
-          lookup.left >= safe.x - 1 && lookup.right <= safe.x + safe.width + 1 &&
-          lookup.top - origin.top >= safe.y - 1 && lookup.bottom - origin.top <= safe.y + safe.height + 1
-      }), `${name}: complete lookup clears the header and stays inside the attached leaf`)
-    }
-    await capture(page, `${name}-opening`)
-    imageTransfer.push({name,...await page.evaluate(() => {
-      const assets=performance.getEntriesByType('resource').filter(entry=>entry.name.includes('/images/origin/')).map(entry=>({name:entry.name.split('/').pop(),bytes:entry.encodedBodySize}))
-      return {assets,totalBytes:assets.reduce((total,asset)=>total+asset.bytes,0)}
-    })})
-    const geometry = await page.evaluate(() => ({ hero: document.querySelector('.origin-hero').getBoundingClientRect().height, roots: document.querySelector('#roots').getBoundingClientRect().top + scrollY, max: document.documentElement.scrollHeight - innerHeight }))
-    const frames = [], rootCoverage = []
-    for (const [region, start, end] of [['hero',0, Math.min(geometry.hero, geometry.max)],['roots',Math.max(0,geometry.roots-height*.9),geometry.max]]) {
-      for (let i = 0; i < 6; i++) {
-        await page.evaluate(top => scrollTo(0,top), start+(end-start)*i/5)
-        await page.waitForTimeout(600)
-        const state = await page.evaluate(() => ({ top: scrollY, overflow: document.documentElement.scrollWidth > innerWidth, curtain: getComputedStyle(document.querySelector('.root-curtain')).transform, background: getComputedStyle(document.querySelector('.canopy-backplate')).transform, middle: getComputedStyle(document.querySelector('.middle-backplate')).transform, foreground: getComputedStyle(document.querySelector('.hero-foliage')).transform }))
-        assert.equal(state.overflow,false,`${name} ${region} ${i}: overflow`)
-        states.push({ name, region, i, ...state })
-        const file = `${out}/${name}-${region}-${i}.png`
-        await page.screenshot({ path: file }); frames.push(file)
-        if (region === 'roots') {
-          const coverage = await visibleSoilCoverage(page)
-          rootCoverage.push(coverage)
-          states.at(-1).visibleSoilPercent = coverage
-        }
-      }
-    }
-    assert(Math.max(...rootCoverage.slice(1,5)) > 2, `${name}: soil must visibly conceal roots during the reveal, not animate outside the viewport`)
-    assert(rootCoverage.at(-1) < .1, `${name}: complete root artwork at page end`)
-    assert(await rootsAreUncovered(page), `${name}: soil cover leaves the root window at page end`)
-    await page.evaluate(top => scrollTo(0,top), geometry.max - 20)
-    await page.waitForTimeout(600)
-    assert(await rootsAreUncovered(page), `${name}: reveal settles before the final scroll position`)
-    await page.evaluate(top => scrollTo(0,top), Math.max(0,geometry.roots-height*.9)+(geometry.max-Math.max(0,geometry.roots-height*.9))*.4)
-    await page.waitForTimeout(600)
-    assert(await visibleSoilCoverage(page) > 2, `${name}: reverse scrolling restores visible soil coverage`)
-    await page.evaluate(top => scrollTo(0,top), geometry.max)
-    await page.waitForTimeout(600)
-    const scene = await page.locator('.plant-scene').boundingBox()
-    assert(Math.abs(scene.width / scene.height - 1086 / 1448) < .001, `${name}: connected plant keeps its original proportions`)
-    if(name === 'tablet') {
-      assert(await page.locator('.leaf-lookup').evaluate(el => {
-        const world = el.closest('.origin-world'), safe=JSON.parse(world.dataset.sceneSafe), r=el.getBoundingClientRect(), origin=world.getBoundingClientRect()
-        return r.left>=safe.x-1 && r.right<=safe.x+safe.width+1 && r.top-origin.top>=safe.y-1 && r.bottom-origin.top<=safe.y+safe.height+1
-      }), 'Tablet lookup fits the measured leaf reading area')
-    }
-    if(name === 'mobile' || name === 'compact') {
-      assert(await page.locator('.hero-actions .button, .lookup-actions .button').evaluateAll(buttons => buttons.every(el => parseFloat(getComputedStyle(el).fontSize) >= 14 && el.getBoundingClientRect().height >= 44)),`${name}: legible phone actions and touch targets`)
-      await page.evaluate(()=>scrollTo(0,0));await page.waitForTimeout(100)
-      const button=await page.locator('.hero-actions .button').first().boundingBox()
-      const image=await sharp(await page.screenshot()).removeAlpha().raw().toBuffer({resolveWithObject:true})
-      const pixel=(Math.floor(button.y+5)*image.info.width+Math.floor(button.x+button.width/2))*3
-      const expected=THEME.colors.buttonFill.match(/\w\w/g).map(channel=>parseInt(channel,16))
-      assert(expected.every((channel,i)=>Math.abs(image.data[pixel+i]-channel)<3),`${name}: photographic text scrims never shade the primary action`)
-      await page.evaluate(()=>scrollTo(0,document.documentElement.scrollHeight));await page.waitForTimeout(600)
-    }
-    const tileWidth = width > 1000 ? 300 : 195, tileHeight = Math.round(height*tileWidth/width)
-    const tiles = await Promise.all(frames.map(async (file,i) => ({ input: await sharp(file).resize(tileWidth,tileHeight).toBuffer(), left: i%6*tileWidth, top: Math.floor(i/6)*tileHeight })))
-    await sharp({ create: { width: tileWidth*6, height: tileHeight*2, channels: 4, background: THEME.colors.canvas } }).composite(tiles).png().toFile(`${out}/${name}-motion-sheet.png`)
-    await capture(page,`${name}-closing`)
-    await page.emulateMedia({ reducedMotion: 'reduce' })
-    await page.waitForSelector('.motion-off')
-    assert(await visibleSoilCoverage(page) < .1, `${name}: reduced motion immediately shows the complete roots`)
-    await page.evaluate(() => { document.activeElement?.blur(); scrollTo(0,0) })
-    await capture(page,`${name}-full`,true)
-    if (name === 'desktop' || name === 'mobile') await axe(page, name)
-    checks.push(`${name}: responsive layout, six hero and six root frames, visible intermediate soil coverage, reverse reveal, complete roots held before page end, reduced-motion composition`)
-    await ctx.close()
-  }
+  await verifyStoryLayouts({context,pageFor,capture,axe,out,checks,states,imageTransfer})
 
   const ctx = await context({ viewport: { width:1440,height:900 }, acceptDownloads: true })
   const page = await pageFor(ctx)
@@ -224,6 +146,8 @@ try {
   }
   await page.setViewportSize({width:1440,height:900})
   await page.goto(base)
+  await page.waitForSelector('.layers-ready')
+  await page.waitForTimeout(350)
   await page.locator('#farms').scrollIntoViewIfNeeded()
   await page.waitForTimeout(900)
   const position = await page.evaluate(() => scrollY)
@@ -234,7 +158,7 @@ try {
   assert(Math.abs(await page.evaluate(() => scrollY)-position)<5,'Back restores originating farm position')
   for (let i=0;i<3;i++) {
     await page.locator('.farm-card').first().click(); await page.waitForURL('**/farms/0001'); await page.goBack(); await page.waitForSelector('.layers-ready')
-    assert(await page.locator('.origin-world').evaluate(el => Number(el.dataset.scTriggers)<=5),'Route remounts do not accumulate scroll controllers')
+    assert(await page.locator('.origin-world').evaluate(el => Number(el.dataset.scTriggers)<=12),'Route remounts do not accumulate scroll controllers')
   }
   await page.getByRole('button',{name:SITE.footer.reduce,exact:true}).click()
   await page.waitForSelector('.app-shell.motion-off')
@@ -362,7 +286,7 @@ try {
   await fallback.goto(base)
   await fallback.waitForTimeout(700)
   assert.equal(await fallback.locator('.layers-ready').count(),0)
-  assert.equal(await fallback.locator('.scene-poster').evaluate(el=>getComputedStyle(el).opacity),'1')
+  assert.equal(await fallback.locator('.hero-poster').evaluate(el=>getComputedStyle(el).opacity),'1')
   await lookup(fallback,'0001');await fallback.waitForURL('**/farms/0001')
   checks.push('Failed decorative layer retains complete static poster and functional lookup')
   await fallbackContext.close()

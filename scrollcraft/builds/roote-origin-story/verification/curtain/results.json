@@ -1,0 +1,591 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "start": 1928.515625,
+      "end": 3925.315625,
+      "pin": true,
+      "header": 68,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 67.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 67.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.221852,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2452%, rgba(0, 0, 0, 0) 38.9074%, rgba(0, 0, 0, 0) 61.0926%, rgb(0, 0, 0) 63.7548%)",
+          "opacity": "1",
+          "top": 67.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.592963,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2363%, rgba(0, 0, 0, 0) 20.3518%, rgba(0, 0, 0, 0) 79.6482%, rgb(0, 0, 0) 86.7637%)",
+          "opacity": "1",
+          "top": 67.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 67.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 67.515625,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "wide",
+      "start": 2130.890625,
+      "end": 4559.690624999999,
+      "pin": true,
+      "header": 68,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.221765,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2506%, rgba(0, 0, 0, 0) 38.9117%, rgba(0, 0, 0, 0) 61.0883%, rgb(0, 0, 0) 63.7494%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.592287,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2782%, rgba(0, 0, 0, 0) 20.3856%, rgba(0, 0, 0, 0) 79.6144%, rgb(0, 0, 0) 86.7218%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "panoramic",
+      "start": 2130.890625,
+      "end": 5423.690624999999,
+      "pin": true,
+      "header": 68,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.222109,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2292%, rgba(0, 0, 0, 0) 38.8946%, rgba(0, 0, 0, 0) 61.1054%, rgb(0, 0, 0) 63.7708%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.592706,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2522%, rgba(0, 0, 0, 0) 20.3647%, rgba(0, 0, 0, 0) 79.6353%, rgb(0, 0, 0) 86.7478%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 0.999854,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -11.9909%, rgba(0, 0, 0, 0) 0.0073%, rgba(0, 0, 0, 0) 99.9927%, rgb(0, 0, 0) 111.991%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 67.890625,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "reference",
+      "start": 1470.40625,
+      "end": 3467.20625,
+      "pin": true,
+      "header": 68,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 68.40625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 68.40625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.222407,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2108%, rgba(0, 0, 0, 0) 38.8796%, rgba(0, 0, 0, 0) 61.1204%, rgb(0, 0, 0) 63.7892%)",
+          "opacity": "1",
+          "top": 68.40625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.592407,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2708%, rgba(0, 0, 0, 0) 20.3796%, rgba(0, 0, 0, 0) 79.6204%, rgb(0, 0, 0) 86.7292%)",
+          "opacity": "1",
+          "top": 68.40625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 68.40625,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 68.40625,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "start": 821.7375,
+      "end": 1874.0375,
+      "pin": false,
+      "header": 60,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 954.9375,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 744.9375,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.222574,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2004%, rgba(0, 0, 0, 0) 38.8713%, rgba(0, 0, 0, 0) 61.1287%, rgb(0, 0, 0) 63.7996%)",
+          "opacity": "1",
+          "top": 533.9375,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.592241,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2811%, rgba(0, 0, 0, 0) 20.388%, rgba(0, 0, 0, 0) 79.612%, rgb(0, 0, 0) 86.7189%)",
+          "opacity": "1",
+          "top": 323.9375,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 1,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 91.9375,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": -55.0625,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "phone",
+      "start": 1109.45625,
+      "end": 1926.6,
+      "pin": false,
+      "header": 60,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 675.65625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 511.65625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.22177,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2503%, rgba(0, 0, 0, 0) 38.9115%, rgba(0, 0, 0, 0) 61.0885%, rgb(0, 0, 0) 63.7497%)",
+          "opacity": "1",
+          "top": 348.65625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.593044,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2313%, rgba(0, 0, 0, 0) 20.3478%, rgba(0, 0, 0, 0) 79.6522%, rgb(0, 0, 0) 86.7687%)",
+          "opacity": "1",
+          "top": 184.65625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 1,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": 4.65625,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": -109.34375,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "compact",
+      "start": 1245.15625,
+      "end": 2032.5,
+      "pin": false,
+      "header": 60,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 512.15625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 354.15625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.221752,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.2514%, rgba(0, 0, 0, 0) 38.9124%, rgba(0, 0, 0, 0) 61.0876%, rgb(0, 0, 0) 63.7486%)",
+          "opacity": "1",
+          "top": 197.15625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.593063,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2301%, rgba(0, 0, 0, 0) 20.3468%, rgba(0, 0, 0, 0) 79.6531%, rgb(0, 0, 0) 86.7699%)",
+          "opacity": "1",
+          "top": 39.15625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 0.999624,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -11.9767%, rgba(0, 0, 0, 0) 0.0188%, rgba(0, 0, 0, 0) 99.9812%, rgb(0, 0, 0) 111.977%)",
+          "opacity": "1",
+          "top": -133.84375,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": -243.84375,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "short",
+      "start": 1476.515625,
+      "end": 2164.015625,
+      "pin": false,
+      "header": 68,
+      "states": [
+        {
+          "p": 0,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 519.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.2,
+          "reveal": 0,
+          "clean": "false",
+          "mask": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+          "opacity": "1",
+          "top": 382.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.4,
+          "reveal": 0.222761,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 36.1888%, rgba(0, 0, 0, 0) 38.862%, rgba(0, 0, 0, 0) 61.138%, rgb(0, 0, 0) 63.8112%)",
+          "opacity": "1",
+          "top": 244.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.6,
+          "reveal": 0.592054,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) 13.2927%, rgba(0, 0, 0, 0) 20.3973%, rgba(0, 0, 0, 0) 79.6027%, rgb(0, 0, 0) 86.7073%)",
+          "opacity": "1",
+          "top": 107.515625,
+          "overflow": false
+        },
+        {
+          "p": 0.82,
+          "reveal": 0.999083,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -11.9431%, rgba(0, 0, 0, 0) 0.04585%, rgba(0, 0, 0, 0) 99.9541%, rgb(0, 0, 0) 111.943%)",
+          "opacity": "1",
+          "top": -43.484375,
+          "overflow": false
+        },
+        {
+          "p": 0.96,
+          "reveal": 1,
+          "clean": "false",
+          "mask": "linear-gradient(to right, rgb(0, 0, 0) -12%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%, rgb(0, 0, 0) 112%)",
+          "opacity": "1",
+          "top": -140.484375,
+          "overflow": false
+        }
+      ]
+    }
+  ],
+  "recovery": [
+    {
+      "asset": "clean-desktop",
+      "passed": true
+    },
+    {
+      "asset": "subject-desktop",
+      "passed": true
+    }
+  ],
+  "navigation": [
+    {
+      "i": 0,
+      "width": 390,
+      "height": 650,
+      "rect": {
+        "x": 20,
+        "y": 468.609375,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 1,
+      "width": 1440,
+      "height": 650,
+      "rect": {
+        "x": 74.875,
+        "y": 468.390625,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 2,
+      "width": 1440,
+      "height": 650,
+      "rect": {
+        "x": 74.875,
+        "y": 468.390625,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 3,
+      "width": 390,
+      "height": 650,
+      "rect": {
+        "x": 20,
+        "y": 468.609375,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 4,
+      "width": 1440,
+      "height": 650,
+      "rect": {
+        "x": 74.875,
+        "y": 468.390625,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 5,
+      "width": 1440,
+      "height": 650,
+      "rect": {
+        "x": 74.875,
+        "y": 468.390625,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 6,
+      "width": 390,
+      "height": 650,
+      "rect": {
+        "x": 20,
+        "y": 468.609375,
+        "width": 216.640625,
+        "height": 52
+      }
+    },
+    {
+      "i": 7,
+      "width": 1440,
+      "height": 650,
+      "rect": {
+        "x": 74.875,
+        "y": 468.390625,
+        "width": 216.640625,
+        "height": 52
+      }
+    }
+  ],
+  "errors": []
+}

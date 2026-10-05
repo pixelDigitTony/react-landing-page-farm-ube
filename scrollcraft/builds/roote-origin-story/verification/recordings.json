@@ -1,0 +1,38 @@
+[
+  {
+    "device": "desktop",
+    "pace": "reading",
+    "seconds": 66.04,
+    "review": "desktop-reading-review.png"
+  },
+  {
+    "device": "desktop",
+    "pace": "fast",
+    "seconds": 4.96,
+    "review": "desktop-fast-review.png"
+  },
+  {
+    "device": "desktop",
+    "pace": "reverse",
+    "seconds": 19.28,
+    "review": "desktop-reverse-review.png"
+  },
+  {
+    "device": "phone",
+    "pace": "reading",
+    "seconds": 51.76,
+    "review": "phone-reading-review.png"
+  },
+  {
+    "device": "phone",
+    "pace": "fast",
+    "seconds": 4.6,
+    "review": "phone-fast-review.png"
+  },
+  {
+    "device": "phone",
+    "pace": "reverse",
+    "seconds": 11.52,
+    "review": "phone-reverse-review.png"
+  }
+]

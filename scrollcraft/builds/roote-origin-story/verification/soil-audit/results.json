@@ -1,0 +1,2282 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "start": 1928.515625,
+    "end": 3925.315625,
+    "pinned": true,
+    "states": [
+      {
+        "p": 0,
+        "scroll": 1929,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.12,
+        "scroll": 2168,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.38,
+        "scroll": 2687,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 2907,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": true
+      },
+      {
+        "p": 0.6,
+        "scroll": 3127,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "31",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "31",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.75,
+        "scroll": 3426,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "48",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "48",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 3626,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.98,
+        "scroll": 3885,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 1.12,
+        "scroll": 4165,
+        "stage": {
+          "x": 0,
+          "y": -172.484375,
+          "width": 1440,
+          "height": 832,
+          "top": -172.484375,
+          "right": 1440,
+          "bottom": 659.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -172.484375,
+          "width": 1440,
+          "height": 832,
+          "top": -172.484375,
+          "right": 1440,
+          "bottom": 659.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "true",
+          "transferMode": "animated",
+          "transferProgress": "0.149425",
+          "targetFrame": "59",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "1"
+      },
+      {
+        "p": 0.85,
+        "scroll": 3626,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 2907,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": true
+      },
+      {
+        "p": 0,
+        "scroll": 1929,
+        "stage": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 67.515625,
+          "width": 1440,
+          "height": 832,
+          "top": 67.515625,
+          "right": 1440,
+          "bottom": 899.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "4087",
+          "transferEnd": "4609",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      }
+    ]
+  },
+  {
+    "name": "panoramic",
+    "width": 3440,
+    "height": 1440,
+    "start": 2130.890625,
+    "end": 5423.690624999999,
+    "pinned": true,
+    "states": [
+      {
+        "p": 0,
+        "scroll": 2131,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.12,
+        "scroll": 2526,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.38,
+        "scroll": 3382,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 3744,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": true
+      },
+      {
+        "p": 0.6,
+        "scroll": 4107,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "31",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "31",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.75,
+        "scroll": 4600,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "48",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "48",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 4930,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.98,
+        "scroll": 5358,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 1.12,
+        "scroll": 5819,
+        "stage": {
+          "x": 0,
+          "y": -327.109375,
+          "width": 3440,
+          "height": 1372,
+          "top": -327.109375,
+          "right": 3440,
+          "bottom": 1044.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": -327.109375,
+          "width": 1920,
+          "height": 1372,
+          "top": -327.109375,
+          "right": 2680,
+          "bottom": 1044.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "true",
+          "transferMode": "animated",
+          "transferProgress": "0.162874",
+          "targetFrame": "59",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "1"
+      },
+      {
+        "p": 0.85,
+        "scroll": 4930,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 3744,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": true
+      },
+      {
+        "p": 0,
+        "scroll": 2131,
+        "stage": {
+          "x": 0,
+          "y": 67.890625,
+          "width": 3440,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 3440,
+          "bottom": 1439.890625,
+          "left": 0
+        },
+        "image": {
+          "x": 760,
+          "y": 67.890625,
+          "width": 1920,
+          "height": 1372,
+          "top": 67.890625,
+          "right": 2680,
+          "bottom": 1439.890625,
+          "left": 760
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "5683",
+          "transferEnd": "6518",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      }
+    ]
+  },
+  {
+    "name": "short-desktop",
+    "width": 1440,
+    "height": 650,
+    "start": 1476.515625,
+    "end": 2164.015625,
+    "pinned": false,
+    "states": [
+      {
+        "p": 0,
+        "scroll": 1477,
+        "stage": {
+          "x": 0,
+          "y": 519.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 519.515625,
+          "right": 1440,
+          "bottom": 1239.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 519.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 519.515625,
+          "right": 1440,
+          "bottom": 1239.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.12,
+        "scroll": 1559,
+        "stage": {
+          "x": 0,
+          "y": 437.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 437.515625,
+          "right": 1440,
+          "bottom": 1157.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 437.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 437.515625,
+          "right": 1440,
+          "bottom": 1157.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.38,
+        "scroll": 1738,
+        "stage": {
+          "x": 0,
+          "y": 258.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 258.515625,
+          "right": 1440,
+          "bottom": 978.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 258.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 258.515625,
+          "right": 1440,
+          "bottom": 978.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 1813,
+        "stage": {
+          "x": 0,
+          "y": 183.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 183.515625,
+          "right": 1440,
+          "bottom": 903.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 183.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 183.515625,
+          "right": 1440,
+          "bottom": 903.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "clean": "false",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": false
+      },
+      {
+        "p": 0.6,
+        "scroll": 1889,
+        "stage": {
+          "x": 0,
+          "y": 107.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 107.515625,
+          "right": 1440,
+          "bottom": 827.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 107.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 107.515625,
+          "right": 1440,
+          "bottom": 827.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "31",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "31",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.75,
+        "scroll": 1992,
+        "stage": {
+          "x": 0,
+          "y": 4.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 4.515625,
+          "right": 1440,
+          "bottom": 724.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 4.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 4.515625,
+          "right": 1440,
+          "bottom": 724.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "48",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "48",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 2061,
+        "stage": {
+          "x": 0,
+          "y": -64.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -64.484375,
+          "right": 1440,
+          "bottom": 655.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -64.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -64.484375,
+          "right": 1440,
+          "bottom": 655.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.98,
+        "scroll": 2150,
+        "stage": {
+          "x": 0,
+          "y": -153.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -153.484375,
+          "right": 1440,
+          "bottom": 566.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -153.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -153.484375,
+          "right": 1440,
+          "bottom": 566.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 1.12,
+        "scroll": 2247,
+        "stage": {
+          "x": 0,
+          "y": -250.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -250.484375,
+          "right": 1440,
+          "bottom": 469.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -250.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -250.484375,
+          "right": 1440,
+          "bottom": 469.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0.167109",
+          "targetFrame": "59",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "true"
+        },
+        "overlayOpacity": "1"
+      },
+      {
+        "p": 0.85,
+        "scroll": 2061,
+        "stage": {
+          "x": 0,
+          "y": -64.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -64.484375,
+          "right": 1440,
+          "bottom": 655.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -64.484375,
+          "width": 1440,
+          "height": 720,
+          "top": -64.484375,
+          "right": 1440,
+          "bottom": 655.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "59",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "59",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 1813,
+        "stage": {
+          "x": 0,
+          "y": 183.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 183.515625,
+          "right": 1440,
+          "bottom": 903.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 183.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 183.515625,
+          "right": 1440,
+          "bottom": 903.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "20",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "20",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": false
+      },
+      {
+        "p": 0,
+        "scroll": 1477,
+        "stage": {
+          "x": 0,
+          "y": 519.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 519.515625,
+          "right": 1440,
+          "bottom": 1239.515625,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 519.515625,
+          "width": 1440,
+          "height": 720,
+          "top": 519.515625,
+          "right": 1440,
+          "bottom": 1239.515625,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "transferMode": "animated",
+          "transferProgress": "0",
+          "targetFrame": "0",
+          "transferStart": "2184",
+          "transferEnd": "2561",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "8",
+          "clean": "false"
+        },
+        "overlayOpacity": "0"
+      }
+    ]
+  },
+  {
+    "name": "tablet",
+    "width": 834,
+    "height": 1194,
+    "start": 821.7375,
+    "end": 1874.0375,
+    "pinned": false,
+    "states": [
+      {
+        "p": 0,
+        "scroll": 822,
+        "stage": {
+          "x": 0,
+          "y": 954.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 954.9375,
+          "right": 834,
+          "bottom": 2066.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 954.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 954.9375,
+          "right": 834,
+          "bottom": 2066.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "0",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.12,
+        "scroll": 948,
+        "stage": {
+          "x": 0,
+          "y": 828.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 828.9375,
+          "right": 834,
+          "bottom": 1940.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 828.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 828.9375,
+          "right": 834,
+          "bottom": 1940.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "0",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.38,
+        "scroll": 1222,
+        "stage": {
+          "x": 0,
+          "y": 554.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 554.9375,
+          "right": 834,
+          "bottom": 1666.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 554.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 554.9375,
+          "right": 834,
+          "bottom": 1666.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "13",
+          "presentation": "sequence",
+          "frame": "13",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 1337,
+        "stage": {
+          "x": 0,
+          "y": 439.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 439.9375,
+          "right": 834,
+          "bottom": 1551.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 439.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 439.9375,
+          "right": 834,
+          "bottom": 1551.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "13",
+          "presentation": "sequence",
+          "frame": "13",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": false
+      },
+      {
+        "p": 0.6,
+        "scroll": 1453,
+        "stage": {
+          "x": 0,
+          "y": 323.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 323.9375,
+          "right": 834,
+          "bottom": 1435.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 323.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 323.9375,
+          "right": 834,
+          "bottom": 1435.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "21",
+          "presentation": "sequence",
+          "frame": "21",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.75,
+        "scroll": 1611,
+        "stage": {
+          "x": 0,
+          "y": 165.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 165.9375,
+          "right": 834,
+          "bottom": 1277.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 165.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 165.9375,
+          "right": 834,
+          "bottom": 1277.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "32",
+          "presentation": "sequence",
+          "frame": "32",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 1716,
+        "stage": {
+          "x": 0,
+          "y": 60.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 60.9375,
+          "right": 834,
+          "bottom": 1172.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 60.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 60.9375,
+          "right": 834,
+          "bottom": 1172.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.98,
+        "scroll": 1853,
+        "stage": {
+          "x": 0,
+          "y": -76.0625,
+          "width": 834,
+          "height": 1112,
+          "top": -76.0625,
+          "right": 834,
+          "bottom": 1035.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -76.0625,
+          "width": 834,
+          "height": 1112,
+          "top": -76.0625,
+          "right": 834,
+          "bottom": 1035.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 1.12,
+        "scroll": 2000,
+        "stage": {
+          "x": 0,
+          "y": -223.0625,
+          "width": 834,
+          "height": 1112,
+          "top": -223.0625,
+          "right": 834,
+          "bottom": 888.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": -223.0625,
+          "width": 834,
+          "height": 1112,
+          "top": -223.0625,
+          "right": 834,
+          "bottom": 888.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 1716,
+        "stage": {
+          "x": 0,
+          "y": 60.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 60.9375,
+          "right": 834,
+          "bottom": 1172.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 60.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 60.9375,
+          "right": 834,
+          "bottom": 1172.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 1337,
+        "stage": {
+          "x": 0,
+          "y": 439.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 439.9375,
+          "right": 834,
+          "bottom": 1551.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 439.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 439.9375,
+          "right": 834,
+          "bottom": 1551.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "13",
+          "presentation": "sequence",
+          "frame": "13",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": false
+      },
+      {
+        "p": 0,
+        "scroll": 822,
+        "stage": {
+          "x": 0,
+          "y": 954.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 954.9375,
+          "right": 834,
+          "bottom": 2066.9375,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 954.9375,
+          "width": 834,
+          "height": 1112,
+          "top": 954.9375,
+          "right": 834,
+          "bottom": 2066.9375,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "0",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      }
+    ]
+  },
+  {
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "start": 1109.45625,
+    "end": 1926.6,
+    "pinned": false,
+    "states": [
+      {
+        "p": 0,
+        "scroll": 1109,
+        "stage": {
+          "x": 0,
+          "y": 675.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 675.65625,
+          "right": 390,
+          "bottom": 1535,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 947.203125,
+          "width": 390,
+          "height": 520,
+          "top": 947.203125,
+          "right": 390,
+          "bottom": 1467.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "0",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.12,
+        "scroll": 1208,
+        "stage": {
+          "x": 0,
+          "y": 576.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 576.65625,
+          "right": 390,
+          "bottom": 1436,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 848.203125,
+          "width": 390,
+          "height": 520,
+          "top": 848.203125,
+          "right": 390,
+          "bottom": 1368.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "0",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.38,
+        "scroll": 1420,
+        "stage": {
+          "x": 0,
+          "y": 364.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 364.65625,
+          "right": 390,
+          "bottom": 1224,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 636.203125,
+          "width": 390,
+          "height": 520,
+          "top": 636.203125,
+          "right": 390,
+          "bottom": 1156.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "13",
+          "presentation": "sequence",
+          "frame": "13",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 1510,
+        "stage": {
+          "x": 0,
+          "y": 274.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 274.65625,
+          "right": 390,
+          "bottom": 1134,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 546.203125,
+          "width": 390,
+          "height": 520,
+          "top": 546.203125,
+          "right": 390,
+          "bottom": 1066.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "13",
+          "presentation": "sequence",
+          "frame": "13",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": false
+      },
+      {
+        "p": 0.6,
+        "scroll": 1600,
+        "stage": {
+          "x": 0,
+          "y": 184.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 184.65625,
+          "right": 390,
+          "bottom": 1044,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 456.203125,
+          "width": 390,
+          "height": 520,
+          "top": 456.203125,
+          "right": 390,
+          "bottom": 976.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "21",
+          "presentation": "sequence",
+          "frame": "21",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.75,
+        "scroll": 1722,
+        "stage": {
+          "x": 0,
+          "y": 62.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 62.65625,
+          "right": 390,
+          "bottom": 922,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 334.203125,
+          "width": 390,
+          "height": 520,
+          "top": 334.203125,
+          "right": 390,
+          "bottom": 854.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "32",
+          "presentation": "sequence",
+          "frame": "32",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 1804,
+        "stage": {
+          "x": 0,
+          "y": -19.34375,
+          "width": 390,
+          "height": 859.34375,
+          "top": -19.34375,
+          "right": 390,
+          "bottom": 840,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 252.203125,
+          "width": 390,
+          "height": 520,
+          "top": 252.203125,
+          "right": 390,
+          "bottom": 772.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.98,
+        "scroll": 1910,
+        "stage": {
+          "x": 0,
+          "y": -125.34375,
+          "width": 390,
+          "height": 859.34375,
+          "top": -125.34375,
+          "right": 390,
+          "bottom": 734,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 146.203125,
+          "width": 390,
+          "height": 520,
+          "top": 146.203125,
+          "right": 390,
+          "bottom": 666.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 1.12,
+        "scroll": 2025,
+        "stage": {
+          "x": 0,
+          "y": -240.34375,
+          "width": 390,
+          "height": 859.34375,
+          "top": -240.34375,
+          "right": 390,
+          "bottom": 619,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 31.203125,
+          "width": 390,
+          "height": 520,
+          "top": 31.203125,
+          "right": 390,
+          "bottom": 551.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.85,
+        "scroll": 1804,
+        "stage": {
+          "x": 0,
+          "y": -19.34375,
+          "width": 390,
+          "height": 859.34375,
+          "top": -19.34375,
+          "right": 390,
+          "bottom": 840,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 252.203125,
+          "width": 390,
+          "height": 520,
+          "top": 252.203125,
+          "right": 390,
+          "bottom": 772.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "39",
+          "presentation": "sequence",
+          "frame": "39",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      },
+      {
+        "p": 0.49,
+        "scroll": 1510,
+        "stage": {
+          "x": 0,
+          "y": 274.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 274.65625,
+          "right": 390,
+          "bottom": 1134,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 546.203125,
+          "width": 390,
+          "height": 520,
+          "top": 546.203125,
+          "right": 390,
+          "bottom": 1066.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "13",
+          "presentation": "sequence",
+          "frame": "13",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0",
+        "stableWithoutScroll": false
+      },
+      {
+        "p": 0,
+        "scroll": 1109,
+        "stage": {
+          "x": 0,
+          "y": 675.65625,
+          "width": 390,
+          "height": 859.34375,
+          "top": 675.65625,
+          "right": 390,
+          "bottom": 1535,
+          "left": 0
+        },
+        "image": {
+          "x": 0,
+          "y": 947.203125,
+          "width": 390,
+          "height": 520,
+          "top": 947.203125,
+          "right": 390,
+          "bottom": 1467.203125,
+          "left": 0
+        },
+        "frame": {
+          "frameState": "ready",
+          "targetFrame": "0",
+          "presentation": "sequence",
+          "frame": "0",
+          "pending": "0",
+          "failed": "0",
+          "cache": "6"
+        },
+        "overlayOpacity": "0"
+      }
+    ]
+  }
+]
