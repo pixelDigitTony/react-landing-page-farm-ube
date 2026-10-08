@@ -1,0 +1,15 @@
+{
+  "pages": 8,
+  "searchable_characters": 17646,
+  "bytes": 981956,
+  "checks": [
+    "Fee allocations sum to PHP 220,000",
+    "Payment percentages and amounts sum correctly",
+    "Ten week milestones present",
+    "Three designs presented; one build included",
+    "MERN and backend scope present",
+    "Negotiable fee and additional-feature terms present",
+    "No dedicated sources page",
+    "All pages render; no layout overflow"
+  ]
+}

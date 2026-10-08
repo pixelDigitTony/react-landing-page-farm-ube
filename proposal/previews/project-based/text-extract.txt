@@ -1,0 +1,317 @@
+DAVAO, PHILIPPINES / STARTING WITH UBE
+Project-based MVPscope & costing
+Ube Farm Cooperative | Davao, Philippines
+Based on the latest three-design client presentation
+Prepared: 5 October 2026
+Valid until: 4 November 2026
+01 / From Root to Story
+ 02 / Grown Together in Davao
+ 03 / Purple to the World
+Three proposed directions. Choose one for implementation; imagery and records shown are illustrative.
+One selected public website design, a protected ecosystem portal and a MongoDB-backed batch
+history, delivered as one defined project. Consumers discover farms and scan approved batch
+summaries; members manage the permitted origin records.
+₱ 220,000
+Negotiable / one-time development
+10 weeks
+Milestones, pilot review and handover
+Prepared for the project-based option in the latest client presentation. The PHP 220,000 fee covers the combined website and
+new backend, not three separate design builds. Any previous payments or prototype charges will be reconciled before the final
+agreement to avoid duplicate billing.
+Confirm before commitment
+This is a proposed engagement, not an accepted contract. Confirm one design, its motion sequence and asset
+reuse, weekly development availability, and the single-source processing workflow before agreeing the final fee and
+start date.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 1 / 8
+P R O P O S E D  P R O J E C T  F E E
+T A R G E T  D E L I V E R Y
+01 / DELIVERABLES
+One design, one connected MVP
+Help visitors discover the cooperative's farms and produce, give authorized ecosystem members
+access to connected batch records, and let consumers scan a public summary for the specific batch
+behind a partner product.
+01 One public design Implement one approved direction from the three concepts. Include its agreed
+scroll story, responsive mobile composition, accessible navigation and reduced-
+motion view. Reuse the current prototype and artwork where suitable.
+02 Farm & produce
+catalogue
+Search farms and produce; filter the catalogue by crop/location; open approved
+farm profiles, availability and published batch links. Begin with ube; ordinary
+produce records can be added later.
+03 Protected member
+portal
+Login, password recovery and assigned member dashboards. Administrators,
+growers, processors and brand owners/distributors see permitted batch history;
+backend rules restrict edits and record access.
+04 Growing & harvest
+history
+Farm, plot/site, grower, produce/variety, planting date and agreed care/input notes.
+Add harvest ID, date, quantity/unit and status, with validation and dated correction
+history.
+05 Processing & recipients Record the processor, date/place, processed lot and intended brand owner or
+distributor. Link one source harvest batch to each processed lot and preserve its
+origin history.
+06 Public batch QR Admin preview, approval, publish/unpublish and a stable public URL per batch.
+Farm/batch ID lookup, camera scanning and PNG/SVG QR downloads; public
+consumers need no login.
+07 Admin & pilot
+onboarding
+Manage farms, produce, partners, accounts, batch records and publication.
+Assisted entry of up to 10 farms, 20 batches and 25 accounts; ordinary records
+remain self-service afterward.
+08 Test, launch & handover Feature and permission testing, two review rounds, HTTPS production deployment,
+public-page SEO basics, backups and one restore check. Source/documentation,
+one training session and 30-day defect support.
+MERN: MongoDB, Express API, React and Node.js 26; TypeScript across frontend and backend. One cooperative ecosystem,
+English, one staging environment and one production deployment. Agree hosting, storage, email and backup retention at
+kickoff.
+Editable copy, colors and operational data
+Interface text and colors stay in a centralized constants file. Operational farm, produce and batch data is edited
+through the protected dashboard and stored in the database.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 2 / 8
+02 / RECORDS AND PERMISSIONS
+From the farm to the public QR
+A connected member record and a separately approved consumer summary for each batch.
+01 / RECORD
+Farm & growing
+Origin, planting and care
+02 / RECORD
+Harvest batch
+Date, quantity and ID
+03 / RECORD
+Processor
+Processing and lot link
+04 / RECORD
+Brand / distributor
+Intended recipient
+PARTICIPANT CAN VIEW CAN MANAGE
+Administrator All records in this ecosystem. Users, farms, produce, batch corrections and
+publication approval.
+Grower / farm team Authorized batch histories and linked
+partners.
+Assigned farm, growing and harvest records.
+Processor Authorized origin and harvest details. Assigned processing events, lot links and recipients.
+Brand owner /
+distributor
+Full permitted history of assigned
+batches.
+Assigned receipt/allocation acknowledgement and
+own partner details.
+Consumer / public
+visitor
+Published farm pages and approved
+batch summaries.
+No backend editing; no login needed to scan.
+Private member records
+Member view: agreed farming details, harvest and processing data, linked recipients and record history. Server-side
+permission checks restrict access by role and batch assignment; the cooperative approves the visibility rules in Week
+1.
+Approved public summary
+Consumer view: batch ID, produce, farm/location, approved growing summary, harvest date, processor and
+brand/distributor names where approved. Personal contacts, internal notes and commercial information remain private
+unless explicitly approved for publication.
+Farm QR and batch QR serve different purposes
+Farm lookup and farm QR open a farm profile. Batch lookup and batch QR open a batch summary. Administrators can unpublish
+a summary without deleting its private history. A stable URL keeps printed QR artwork usable after approved content updates;
+physical printing is excluded. Partners display the appropriate batch QR and replace it when the batch changes.
+The MVP records information supplied by ecosystem participants. QR traceability does not independently certify authenticity,
+organic status, export eligibility or regulatory compliance. The initial workflow supports one source harvest batch per processed
+lot; mixed-origin blending and complex split/merge accounting require separate scope.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 3 / 8
+03 / FEE AND PAYMENT MILESTONES
+Proposed project investment
+DEVELOPMENT ALLOCATION AMOUNT
+Selected public design & catalogue
+One design, agreed motion, responsive layouts, public farm/produce pages and prototype reuse.
+₱ 60,000
+Backend foundation & member portal
+MongoDB/API, login and recovery, role/assignment rules and member navigation.
+₱ 45,000
+Batch history & operational forms
+Growing/harvest records, quantities/status, processor/recipient links and correction history.
+₱ 55,000
+Publication, lookup & batch QR
+Approved summaries, visibility controls, ID/camera lookup and QR artwork downloads.
+₱ 25,000
+QA, access checks & pilot reviews
+Public/private tests, workflow persistence, mobile/camera checks and two review rounds.
+₱ 20,000
+Launch, training & handover
+HTTPS, backups/restore check, pilot assistance, documentation and delivered-defect support.
+₱ 15,000
+Total project fee / negotiable ₱ 220,000
+A scope-based custom MVP estimate for a Davao cooperative: animated public experience plus operational records,
+permissions and QR publication. It is not a basic brochure-site package or a measured Davao market average. The existing PHP
+220,000 combined estimate is retained, subject to confirmation of the selected redesign and workflow.
+Payments follow deliverable milestones
+Kickoff / 40%
+Before Week 1: written scope, chosen design and workflow approved; kickoff inputs ready.
+₱ 88,000
+Core records / 30%
+Target Week 5: client accepts farm, growing and harvest workflows on staging.
+₱ 66,000
+MVP acceptance / 20%
+Target Week 9: client accepts the end-to-end flow and two consolidated review rounds.
+₱ 44,000
+Launch readiness / 10%
+Target Week 10: approved release, restore check and handover package ready; payable before production launch/source
+transfer.
+₱ 22,000
+Fixed scope, subject to written agreement
+The final negotiated project fee covers the approved deliverables. Milestone weeks are targets; payment is tied to
+the listed delivery or acceptance event. No extra work is billed without an approved change request. Hosting and
+optional maintenance are separate.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 4 / 8
+04 / DELIVERY IN WEEKS
+Ten weeks from kickoff to launch
+Target: 10 delivery weeks after written scope approval, complete kickoff inputs and the kickoff
+payment. Confirm working availability before commitment. Client feedback, missing content, service-
+account delays and approved changes may move the schedule.
+WEEK MILESTONE PLANNED OUTPUT
+Week 1 Confirm the system Confirm one design, pilot records, roles, public fields and whether
+processors combine harvests.
+Week 2 Build the foundation Build MongoDB, the Express/Node.js API and sign-in. Test account
+access and role restrictions.
+Week 3 Organize the ecosystem Build farm, produce, partner and account forms. Test saving, editing
+and permitted access.
+Week 4 Capture farming details Add planting, plot and care records. Test required fields, dates and
+record corrections.
+Week 5 Track harvest batches Add harvest IDs, quantities and status. Review the growing-to-harvest
+workflow with pilot users.
+Week 6 Connect processing & recipients Link processors, lots and recipients. Test origin links and each
+participant's permitted access.
+Week 7 Publish the consumer view Build public summaries, approvals and QR downloads. Test published,
+private and unknown IDs.
+Week 8 Connect the landing experience Connect the catalogue and chosen design. Check mobile, QR and
+reduced motion. First review round.
+Week 9 Review & accept the pilot Complete the second review round, pilot acceptance and final
+workflow, permission and device checks.
+Week 10 Launch & transfer Launch with HTTPS and backups. Check restore, train operators and
+confirm the support handover.
+Review and testing cadence
+Testing begins with feature development in Week 2. Review working milestones on staging; consolidated design/flow
+review rounds are in Weeks 8 and 9. Feedback is requested within two working days. Schedule changes will be
+communicated and agreed, rather than hidden in the week targets.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 5 / 8
+05 / DESIGN CHOICE AND SCOPE BOUNDARIES
+Choose the experience. Keep the pilot clear.
+The three designs share the same catalogue, member portal and batch QR features. The fee funds one
+selected design.
+01 From Root to Story
+Forest-green vine journey, leaf-mounted origin lookup, farm previews and people behind the roots.
+02 Grown Together in Davao
+Grower photography, an early searchable farm catalogue and a separate farm/batch lookup.
+03 Purple to the World
+Bold ube imagery, product-to-origin storytelling and prominent public batch information.
+Approve the selected motion before development
+The deck describes proposed motion. Confirm the final opening, scroll sequence, mobile behavior and asset reuse
+against the current prototype. Existing photographic 2.5D artwork may be reused; a new fully modeled 3D scene or
+major additional asset production requires separate scope.
+What inventory means here
+Inventory means a farm/produce catalogue with recorded batch quantities and manually maintained availability. It does
+not include a full warehouse ledger, reservations, sales orders, POS, invoicing or real-time stock synchronization.
+Outside this project fee
+E-commerce, payments, POS, accounting, shipment
+tracking and full warehouse/ERP stock control.
+Mixed-origin batch blending, complex split/merge
+reconciliation and automated stock reservations.
+Existing-system integrations, bulk legacy migration,
+IoT/sensor feeds and offline/native apps.
+Blockchain, independent certification, export
+compliance verification and advanced analytics.
+Independent multi-tenant organizations, extra
+languages, major new 3D scenes and media
+production.
+Single-source batch workflow
+The quoted pilot assumes one source harvest batch per processed lot. If processors combine harvests or farms,
+revise the data workflow, cost and delivery plan before commitment. Physical QR printing, professional photography
+and paid asset licenses are excluded.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 6 / 8
+06 / PILOT ACCEPTANCE AND OPERATING COSTS
+Ready to run and ready to hand over
+Acceptance checks
+Client inputs and assisted onboarding
+Supply approved identity/photos and leadership roles, pilot farm/produce/batch data, processor/recipient details, account
+assignments and public-field approval. Confirm whether harvests are combined, provide client-owned deployment accounts,
+and assign one decision-maker for consolidated feedback.
+Assisted onboarding covers up to 10 farms, 20 batches and 25 accounts. These are setup allowances, not software record
+limits. Creating ordinary records through delivered forms is included; bulk migration, developer-assisted entry beyond the
+allowance or new record types are separately negotiated.
+Operating costs paid separately
+Operating allowance: PHP 2,500-5,000/month for a small Node.js/Express API, MongoDB hosting, authentication/file storage,
+backups and essential service usage; domain PHP 1,000-3,500/year. These are planning allowances, not provider quotations.
+Client-owned accounts pay actual charges; traffic, storage, email usage, exchange rates and plan changes affect cost.
+First-year base allowance: ₱ 251,000- ₱ 283,500
+Project fee + 12 months of operating allowance + domain. Excludes optional maintenance, premium domains, paid asset
+licenses, excess provider usage and applicable taxes. Any applicable tax treatment will be stated in the final quotation/invoice.
+Calculation: ₱ 220,000 + ( ₱ 2,500- ₱ 5,000) x 12 months + ₱ 1,000- ₱ 3,500 domain/year.
+Optional maintenance
+Optional maintenance: PHP 4,000/month for up to four hours of routine checks, minor fixes/updates and support. New
+features and extra hours are separately quoted. This service is not automatically billed and is separate from the included 30-
+day defect support.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 7 / 8
+Assigned grower, processor and recipient complete the agreed farming-to-recipient flow; linked records persist
+after refresh and re-login.
+01
+Logged-out and unauthorized API requests cannot read private/unassigned records or perform restricted edits; only
+administrators publish.
+02
+Only approved farm/produce pages and public batch links appear. ID lookup and production QR open the correct
+farm or batch; unpublished/unknown records have recovery states.
+03
+The selected design works on mobile, keyboard and reduced motion. Android/Chrome and iPhone/Safari camera
+checks are completed with agreed test devices.
+04
+HTTPS launch, backup restore check, operator training, source files and editing/deployment documentation are
+completed.
+05
+07 / PROPOSED PROJECT-BASED TERMS
+Clear delivery and handover
+These arrangements apply only if project-based delivery is selected and the final agreement is
+approved.
+Engagement and review
+Delivery covers the defined MVP through acceptance, launch, handover and 30-day defect support. Weekly progress
+updates and scheduled milestone reviews are included. Ongoing operations, daily staff duties, open-ended
+development and employment availability are outside this project fee.
+Two consolidated revision rounds refine the approved design and workflow. Report reproducible acceptance issues
+against the agreed criteria; in-scope defects are corrected before acceptance. Late feedback moves dependent
+milestones and does not by itself constitute acceptance.
+Source, accounts and data
+After full payment, deliver the agreed custom source code and documentation to client-controlled accounts; record
+ownership/licensing terms in the final agreement. Third-party tools, fonts and assets remain subject to their licenses.
+The cooperative owns its operational data and is responsible for its accuracy and approved publication.
+Included launch support
+30 days from production launch for defects in delivered functionality. No automatic maintenance subscription. Daily
+data entry, new features, third-party incidents and 24/7 response are excluded; a separate support arrangement can
+be agreed after the pilot.
+Costing is negotiable
+The PHP 220,000 proposed project fee, milestone percentages and payment terms are negotiable. Final costing,
+scope, selected design, working availability and launch schedule will be mutually confirmed in writing before
+development starts.
+Additional features incur additional cost
+Additional features, integrations, new animation scenes, major redesigns or expanded workflows will incur additional
+cost depending on complexity and negotiations. Approve a written change request with its deliverables, additional
+fee and timeline impact before that work begins.
+Confirm before kickoff
+Selected design and workflow: __________________
+Final fee, payments and kickoff date: ______________
+Working availability and client reviewer: __________
+For discussion if the client chooses project-based delivery. Selection of a design or receipt of this proposal does not confirm
+an engagement. Any applicable tax treatment will be stated in the final quotation/invoice.
+roote origin
+PROJECT-BASED MVP PROPOSAL
+ROOTE-MVP-2026-1005-PB-R1 | 5 October 2026 8 / 8

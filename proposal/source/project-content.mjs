@@ -1,0 +1,65 @@
+// Project-based offer aligned to the latest 19-slide client presentation.
+// Kept separate so the previous quotation and presentation remain unchanged.
+import { proposal as previous } from './content.mjs'
+import { mvpDeck } from '../../presentation/source/mvp-content.mjs'
+
+export const projectProposal = {
+  ...previous,
+  reference: 'ROOTE-MVP-2026-1005-PB-R1',
+  date: '5 October 2026',
+  validUntil: '4 November 2026',
+  pageCount: 8,
+  sourceDeck: 'roote-origin-client-presentation-new-designs.pptx',
+  summary: 'One selected public website design, a protected ecosystem portal and a MongoDB-backed batch history, delivered as one defined project. Consumers discover farms and scan approved batch summaries; members manage the permitted origin records.',
+  basis: 'Prepared for the project-based option in the latest client presentation. The PHP 220,000 fee covers the combined website and new backend, not three separate design builds. Any previous payments or prototype charges will be reconciled before the final agreement to avoid duplicate billing.',
+  assumption: 'This is a proposed engagement, not an accepted contract. Confirm one design, its motion sequence and asset reuse, weekly development availability, and the single-source processing workflow before agreeing the final fee and start date.',
+  timelineDetail: 'Target: 10 delivery weeks after written scope approval, complete kickoff inputs and the kickoff payment. Confirm working availability before commitment. Client feedback, missing content, service-account delays and approved changes may move the schedule.',
+  designs: [
+    { name: 'From Root to Story', image: 'presentation/design-redesign/01-root-to-story.png', detail: 'Forest-green vine journey, leaf-mounted origin lookup, farm previews and people behind the roots.' },
+    { name: 'Grown Together in Davao', image: 'presentation/design-redesign/02-grown-together.png', detail: 'Grower photography, an early searchable farm catalogue and a separate farm/batch lookup.' },
+    { name: 'Purple to the World', image: 'presentation/design-redesign/03-purple-to-world.png', detail: 'Bold ube imagery, product-to-origin storytelling and prominent public batch information.' },
+  ],
+  scope: [
+    { title: 'One public design', detail: 'Implement one approved direction from the three concepts. Include its agreed scroll story, responsive mobile composition, accessible navigation and reduced-motion view. Reuse the current prototype and artwork where suitable.' },
+    { title: 'Farm & produce catalogue', detail: 'Search farms and produce; filter the catalogue by crop/location; open approved farm profiles, availability and published batch links. Begin with ube; ordinary produce records can be added later.' },
+    { title: 'Protected member portal', detail: 'Login, password recovery and assigned member dashboards. Administrators, growers, processors and brand owners/distributors see permitted batch history; backend rules restrict edits and record access.' },
+    { title: 'Growing & harvest history', detail: 'Farm, plot/site, grower, produce/variety, planting date and agreed care/input notes. Add harvest ID, date, quantity/unit and status, with validation and dated correction history.' },
+    { title: 'Processing & recipients', detail: 'Record the processor, date/place, processed lot and intended brand owner or distributor. Link one source harvest batch to each processed lot and preserve its origin history.' },
+    { title: 'Public batch QR', detail: 'Admin preview, approval, publish/unpublish and a stable public URL per batch. Farm/batch ID lookup, camera scanning and PNG/SVG QR downloads; public consumers need no login.' },
+    { title: 'Admin & pilot onboarding', detail: 'Manage farms, produce, partners, accounts, batch records and publication. Assisted entry of up to 10 farms, 20 batches and 25 accounts; ordinary records remain self-service afterward.' },
+    { title: 'Test, launch & handover', detail: 'Feature and permission testing, two review rounds, HTTPS production deployment, public-page SEO basics, backups and one restore check. Source/documentation, one training session and 30-day defect support.' },
+  ],
+  technical: 'MERN: MongoDB, Express API, React and Node.js 26; TypeScript across frontend and backend. One cooperative ecosystem, English, one staging environment and one production deployment. Agree hosting, storage, email and backup retention at kickoff.',
+  costItems: [
+    { title: 'Selected public design & catalogue', detail: 'One design, agreed motion, responsive layouts, public farm/produce pages and prototype reuse.', amount: 60000 },
+    { title: 'Backend foundation & member portal', detail: 'MongoDB/API, login and recovery, role/assignment rules and member navigation.', amount: 45000 },
+    { title: 'Batch history & operational forms', detail: 'Growing/harvest records, quantities/status, processor/recipient links and correction history.', amount: 55000 },
+    { title: 'Publication, lookup & batch QR', detail: 'Approved summaries, visibility controls, ID/camera lookup and QR artwork downloads.', amount: 25000 },
+    { title: 'QA, access checks & pilot reviews', detail: 'Public/private tests, workflow persistence, mobile/camera checks and two review rounds.', amount: 20000 },
+    { title: 'Launch, training & handover', detail: 'HTTPS, backups/restore check, pilot assistance, documentation and delivered-defect support.', amount: 15000 },
+  ],
+  pricingRationale: 'A scope-based custom MVP estimate for a Davao cooperative: animated public experience plus operational records, permissions and QR publication. It is not a basic brochure-site package or a measured Davao market average. The existing PHP 220,000 combined estimate is retained, subject to confirmation of the selected redesign and workflow.',
+  payment: [
+    { label: 'Kickoff / 40%', percent: 40, trigger: 'Before Week 1: written scope, chosen design and workflow approved; kickoff inputs ready.' },
+    { label: 'Core records / 30%', percent: 30, trigger: 'Target Week 5: client accepts farm, growing and harvest workflows on staging.' },
+    { label: 'MVP acceptance / 20%', percent: 20, trigger: 'Target Week 9: client accepts the end-to-end flow and two consolidated review rounds.' },
+    { label: 'Launch readiness / 10%', percent: 10, trigger: 'Target Week 10: approved release, restore check and handover package ready; payable before production launch/source transfer.' },
+  ],
+  delivery: mvpDeck.weeks,
+  acceptance: [
+    'Assigned grower, processor and recipient complete the agreed farming-to-recipient flow; linked records persist after refresh and re-login.',
+    'Logged-out and unauthorized API requests cannot read private/unassigned records or perform restricted edits; only administrators publish.',
+    'Only approved farm/produce pages and public batch links appear. ID lookup and production QR open the correct farm or batch; unpublished/unknown records have recovery states.',
+    'The selected design works on mobile, keyboard and reduced motion. Android/Chrome and iPhone/Safari camera checks are completed with agreed test devices.',
+    'HTTPS launch, backup restore check, operator training, source files and editing/deployment documentation are completed.',
+  ],
+  clientInputs: 'Supply approved identity/photos and leadership roles, pilot farm/produce/batch data, processor/recipient details, account assignments and public-field approval. Confirm whether harvests are combined, provide client-owned deployment accounts, and assign one decision-maker for consolidated feedback.',
+  reviewCadence: 'Testing begins with feature development in Week 2. Review working milestones on staging; consolidated design/flow review rounds are in Weeks 8 and 9. Feedback is requested within two working days. Schedule changes will be communicated and agreed, rather than hidden in the week targets.',
+  engagement: 'Delivery covers the defined MVP through acceptance, launch, handover and 30-day defect support. Weekly progress updates and scheduled milestone reviews are included. Ongoing operations, daily staff duties, open-ended development and employment availability are outside this project fee.',
+  reviewTerms: 'Two consolidated revision rounds refine the approved design and workflow. Report reproducible acceptance issues against the agreed criteria; in-scope defects are corrected before acceptance. Late feedback moves dependent milestones and does not by itself constitute acceptance.',
+  handoverTerms: 'After full payment, deliver the agreed custom source code and documentation to client-controlled accounts; record ownership/licensing terms in the final agreement. Third-party tools, fonts and assets remain subject to their licenses. The cooperative owns its operational data and is responsible for its accuracy and approved publication.',
+  supportTerms: '30 days from production launch for defects in delivered functionality. No automatic maintenance subscription. Daily data entry, new features, third-party incidents and 24/7 response are excluded; a separate support arrangement can be agreed after the pilot.',
+  negotiation: 'The PHP 220,000 proposed project fee, milestone percentages and payment terms are negotiable. Final costing, scope, selected design, working availability and launch schedule will be mutually confirmed in writing before development starts.',
+  additionalFeatures: 'Additional features, integrations, new animation scenes, major redesigns or expanded workflows will incur additional cost depending on complexity and negotiations. Approve a written change request with its deliverables, additional fee and timeline impact before that work begins.',
+  approval: 'For discussion if the client chooses project-based delivery. Selection of a design or receipt of this proposal does not confirm an engagement. Any applicable tax treatment will be stated in the final quotation/invoice.',
+}
